@@ -127,9 +127,15 @@ def build(cats, papers):
     return "\n".join(toc), "\n".join(body)
 
 
-def render(tpl, toc, body, n):
+def must_read(papers):
+    items = sorted((p for p in papers if p.get("highlight")), key=sort_key)
+    return "\n".join(render_entry(p) for p in items)
+
+
+def render(tpl, toc, body, n, must=""):
     return (
         tpl.replace("{{TOC}}", toc)
+        .replace("{{MUST_READ}}", must)
         .replace("{{PAPERS}}", f"{BEGIN}\n\n{body}\n{END}")
         .replace("{{PAPER_COUNT}}", str(n))
     )
@@ -143,7 +149,7 @@ def main():
     strip = lambda s: re.sub(r"Last updated: \d{4}-\d{2}-\d{2}", "Last updated: ", s)
     stale = []
     for tpl_path, out_path in TARGETS:
-        out = render(tpl_path.read_text(encoding="utf-8"), toc, body, len(papers))
+        out = render(tpl_path.read_text(encoding="utf-8"), toc, body, len(papers), must_read(papers))
         if check:
             cur = out_path.read_text(encoding="utf-8") if out_path.exists() else ""
             if strip(cur) != strip(out.replace("{{LAST_UPDATED}}", "")):

@@ -48,6 +48,12 @@ LLM-based Multi-Agent Systems
                                  games & embodied · medicine · finance · ...
 ```
 
+## 🌟 Must-Read Papers
+
+New to LLM multi-agent systems? Start with these milestone papers (in chronological order).
+
+{{MUST_READ}}
+
 ## 📑 Table of Contents
 
 {{TOC}}

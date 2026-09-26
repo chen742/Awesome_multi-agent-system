@@ -1,0 +1,76 @@
+# Taxonomy of the list. Each paper in papers.yaml references a subcategory `id`.
+# Order here = order in the README.
+
+- title: Surveys
+  description: Surveys, reviews and position papers — the best place to start.
+  subcategories:
+    - id: survey-mas
+      title: LLM-based Multi-Agent System Surveys
+    - id: survey-agent
+      title: LLM Agent Surveys
+    - id: survey-topic
+      title: Topic-Specific Surveys
+
+- title: Frameworks & Infrastructure
+  description: General-purpose platforms and frameworks for building LLM multi-agent systems.
+  subcategories:
+    - id: framework
+      title: Multi-Agent Frameworks
+
+- title: Architecture & Organization
+  description: How agents are wired together — topology, roles, and automated system design.
+  subcategories:
+    - id: topology
+      title: Communication Topology & Organization Structure
+    - id: auto-design
+      title: Automated MAS Design & Agentic Workflow Optimization
+    - id: protocol
+      title: Agent Communication Protocols & Interoperability
+    - id: memory
+      title: Memory & Context Sharing
+
+- title: Collaboration & Reasoning
+  description: Mechanisms through which multiple LLM agents reason, argue, and cooperate.
+  subcategories:
+    - id: debate
+      title: Multi-Agent Debate & Collaborative Reasoning
+    - id: roleplay
+      title: Role-Playing, Cooperation & Social Reasoning
+
+- title: Training Multi-Agent LLMs
+  description: Fine-tuning and reinforcement learning for systems of LLM agents.
+  subcategories:
+    - id: training
+      title: Multi-Agent Fine-Tuning & Reinforcement Learning
+
+- title: Evaluation & Analysis
+  description: Benchmarks, failure analysis, and scaling studies of LLM multi-agent systems.
+  subcategories:
+    - id: benchmark
+      title: Benchmarks & Environments
+    - id: analysis
+      title: Failure Analysis, Attribution & Scaling
+
+- title: Safety & Security
+  description: Attacks, defenses, and robustness of LLM multi-agent systems.
+  subcategories:
+    - id: safety
+      title: Safety, Security & Robustness
+
+- title: Applications
+  description: LLM multi-agent systems applied to real domains.
+  subcategories:
+    - id: app-software
+      title: Software Engineering & Coding
+    - id: app-science
+      title: Scientific Discovery & Research
+    - id: app-social
+      title: Social Simulation & Human Behavior
+    - id: app-embodied
+      title: Games, Embodied AI & Robotics
+    - id: app-medical
+      title: Medicine & Healthcare
+    - id: app-finance
+      title: Finance & Economics
+    - id: app-other
+      title: Other Domains

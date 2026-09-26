@@ -1,0 +1,62 @@
+name: 📄 Add a paper
+description: Suggest a paper for the list
+title: "[Add Paper] "
+labels: ["add-paper"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for contributing! A maintainer will add the paper to `data/papers.yaml`.
+  - type: input
+    id: title
+    attributes:
+      label: Paper title
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Paper link (arXiv abs page preferred)
+      placeholder: https://arxiv.org/abs/2501.12345
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: Venue
+      placeholder: NeurIPS 2025 / arXiv 2026
+  - type: input
+    id: code
+    attributes:
+      label: Code link (optional)
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - "survey-mas — LLM-based Multi-Agent System Surveys"
+        - "survey-agent — LLM Agent Surveys"
+        - "survey-topic — Topic-Specific Surveys"
+        - "framework — Multi-Agent Frameworks"
+        - "topology — Communication Topology & Organization Structure"
+        - "auto-design — Automated MAS Design & Agentic Workflow Optimization"
+        - "protocol — Agent Communication Protocols & Interoperability"
+        - "memory — Memory & Context Sharing"
+        - "debate — Multi-Agent Debate & Collaborative Reasoning"
+        - "roleplay — Role-Playing, Cooperation & Social Reasoning"
+        - "training — Multi-Agent Fine-Tuning & Reinforcement Learning"
+        - "benchmark — Benchmarks & Environments"
+        - "analysis — Failure Analysis, Attribution & Scaling"
+        - "safety — Safety, Security & Robustness"
+        - "app-software — Software Engineering & Coding"
+        - "app-science — Scientific Discovery & Research"
+        - "app-social — Social Simulation & Human Behavior"
+        - "app-embodied — Games, Embodied AI & Robotics"
+        - "app-medical — Medicine & Healthcare"
+        - "app-finance — Finance & Economics"
+        - "app-other — Other Domains"
+    validations:
+      required: true
+  - type: textarea
+    id: tldr
+    attributes:
+      label: One-sentence summary (optional)

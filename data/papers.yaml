@@ -1,0 +1,471 @@
+- title: 'Beyond Individual Intelligence: Surveying Collaboration, Failure Attribution, and Self-Evolution in LLM-based Multi-Agent Systems'
+  authors: Shihao Qi et al.
+  venue: arXiv 2026
+  arxiv: '2605.14892'
+  year: 2026
+  category: survey-mas
+- title: 'Multi-Agent Systems: From Classical Paradigms to Large Foundation Model-Enabled Futures'
+  authors: Zixiang Wang et al.
+  venue: IEEE/CAA JAS 2026
+  arxiv: '2604.18133'
+  year: 2026
+  category: survey-mas
+- title: 'Towards a Science of Collective AI: LLM-based Multi-Agent Systems Need a Transition from Blind Trial-and-Error to Rigorous Science'
+  authors: Jingru Fan et al.
+  venue: arXiv 2026
+  arxiv: '2602.05289'
+  year: 2026
+  category: survey-mas
+- title: Game-Theoretic Lens on LLM-based Multi-Agent Systems
+  authors: Jianing Hao et al.
+  venue: arXiv 2026
+  arxiv: '2601.15047'
+  year: 2026
+  category: survey-mas
+- title: 'Creativity in LLM-based Multi-Agent Systems: A Survey'
+  authors: Yi-Cheng Lin et al.
+  venue: EMNLP 2025
+  arxiv: '2505.21116'
+  year: 2025
+  category: survey-mas
+- title: 'LLMs Working in Harmony: A Survey on the Technological Aspects of Building Effective LLM-Based Multi Agent Systems'
+  authors: R. M. Aratchige et al.
+  venue: arXiv 2025
+  arxiv: '2504.01963'
+  year: 2025
+  category: survey-mas
+- title: Why Do Multi-Agent LLM Systems Fail?
+  authors: Mert Cemri et al.
+  venue: NeurIPS 2025
+  arxiv: '2503.13657'
+  year: 2025
+  code: https://github.com/multi-agent-systems-failure-taxonomy/MAST
+  category: survey-mas
+- title: 'A Survey on LLM-based Multi-Agent System: Recent Advances and New Frontiers in Application'
+  authors: Shuaihang Chen et al.
+  venue: arXiv 2024
+  arxiv: '2412.17481'
+  year: 2024
+  category: survey-mas
+- title: 'LLM-based Multi-Agent Systems: Techniques and Business Perspectives'
+  authors: Yingxuan Yang et al.
+  venue: arXiv 2024
+  arxiv: '2411.14033'
+  year: 2024
+  category: survey-mas
+- title: 'A Survey on LLM-based Multi-Agent Systems: Workflow, Infrastructure, and Challenges'
+  authors: Xinyi Li et al.
+  venue: Vicinagearth 2024
+  url: https://link.springer.com/article/10.1007/s44336-024-00009-2
+  year: 2024
+  category: survey-mas
+- title: 'LLM Multi-Agent Systems: Challenges and Open Problems'
+  authors: Shanshan Han et al.
+  venue: arXiv 2024
+  arxiv: '2402.03578'
+  year: 2024
+  category: survey-mas
+- title: 'Large Language Model based Multi-Agents: A Survey of Progress and Challenges'
+  authors: Taicheng Guo et al.
+  venue: IJCAI 2024
+  arxiv: '2402.01680'
+  year: 2024
+  code: https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers
+  category: survey-mas
+- title: 'Balancing Autonomy and Alignment: A Multi-Dimensional Taxonomy for Autonomous LLM-powered Multi-Agent Architectures'
+  authors: Thorsten Händler
+  venue: arXiv 2023
+  arxiv: '2310.03659'
+  year: 2023
+  category: survey-mas
+- title: Agentic Reasoning for Large Language Models
+  authors: Tianxin Wei et al.
+  venue: arXiv 2026
+  arxiv: '2601.12538'
+  year: 2026
+  code: https://github.com/weitianxin/Awesome-Agentic-Reasoning
+  category: survey-agent
+- title: 'A Survey of Agent Memory in the Second Half: Towards Self-Evolving and Long-Horizon Agents'
+  authors: Wei-Chieh Huang et al.
+  venue: arXiv 2026
+  arxiv: '2602.06052'
+  year: 2026
+  category: survey-agent
+- title: Memory in the Age of AI Agents
+  authors: Yuyang Hu et al.
+  venue: arXiv 2025
+  arxiv: '2512.13564'
+  year: 2025
+  code: https://github.com/Shichun-Liu/Agent-Memory-Paper-List
+  category: survey-agent
+- title: 'LLM-based Agents Suffer from Hallucinations: A Survey of Taxonomy, Methods, and Directions'
+  authors: Xixun Lin et al.
+  venue: arXiv 2025
+  arxiv: '2509.18970'
+  year: 2025
+  category: survey-agent
+- title: 'The Landscape of Agentic Reinforcement Learning for LLMs: A Survey'
+  authors: Guibin Zhang et al.
+  venue: arXiv 2025
+  arxiv: '2509.02547'
+  year: 2025
+  code: https://github.com/xhyumiracle/Awesome-AgenticLLM-RL-Papers
+  category: survey-agent
+- title: 'A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems'
+  authors: Jinyuan Fang et al.
+  venue: arXiv 2025
+  arxiv: '2508.07407'
+  year: 2025
+  code: https://github.com/EvoAgentX/Awesome-Self-Evolving-Agents
+  category: survey-agent
+- title: A Survey on Agent Workflow -- Status and Future
+  authors: Chaojia Yu et al.
+  venue: ICAIBD 2025
+  arxiv: '2508.01186'
+  year: 2025
+  category: survey-agent
+- title: 'A Survey of Self-Evolving Agents: What, When, How, and Where to Evolve on the Path to Artificial Super Intelligence'
+  authors: Huan-ang Gao et al.
+  venue: arXiv 2025
+  arxiv: '2507.21046'
+  year: 2025
+  code: https://github.com/CharlesQ9/Self-Evolving-Agents
+  category: survey-agent
+- title: 'AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges'
+  authors: Ranjan Sapkota et al.
+  venue: Information Fusion 2025
+  arxiv: '2505.10468'
+  year: 2025
+  category: survey-agent
+- title: 'A Survey of Frontiers in LLM Reasoning: Inference Scaling, Learning to Reason, and Agentic Systems'
+  authors: Zixuan Ke et al.
+  venue: TMLR 2025
+  arxiv: '2504.09037'
+  year: 2025
+  category: survey-agent
+- title: 'Advances and Challenges in Foundation Agents: From Brain-Inspired Intelligence to Evolutionary, Collaborative, and Safe Systems'
+  authors: Bang Liu et al.
+  venue: arXiv 2025
+  arxiv: '2504.01990'
+  year: 2025
+  code: https://github.com/FoundationAgents/awesome-foundation-agents
+  category: survey-agent
+- title: Agentic Large Language Models, a Survey
+  authors: Aske Plaat et al.
+  venue: arXiv 2025
+  arxiv: '2503.23037'
+  year: 2025
+  category: survey-agent
+- title: 'Large Language Model Agent: A Survey on Methodology, Applications and Challenges'
+  authors: Junyu Luo et al.
+  venue: arXiv 2025
+  arxiv: '2503.21460'
+  year: 2025
+  code: https://github.com/luo-junyu/Awesome-Agent-Papers
+  category: survey-agent
+- title: 'Position: Stop Acting Like Language Model Agents Are Normal Agents'
+  authors: Elija Perrier et al.
+  venue: arXiv 2025
+  arxiv: '2502.10420'
+  year: 2025
+  category: survey-agent
+- title: 'Large Model Based Agents: State-of-the-Art, Cooperation Paradigms, Security and Privacy, and Future Trends'
+  authors: Yuntao Wang et al.
+  venue: arXiv 2024
+  arxiv: '2409.14457'
+  year: 2024
+  category: survey-agent
+- title: 'A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning'
+  authors: Xinzhe Li
+  venue: COLING 2025
+  arxiv: '2406.05804'
+  year: 2025
+  code: https://github.com/xinzhel/LLM-Agent-Survey
+  category: survey-agent
+- title: A Survey on the Memory Mechanism of Large Language Model based Agents
+  authors: Zeyu Zhang et al.
+  venue: arXiv 2024
+  arxiv: '2404.13501'
+  year: 2024
+  code: https://github.com/nuster1128/LLM_Agent_Memory_Survey
+  category: survey-agent
+- title: 'The Landscape of Emerging AI Agent Architectures for Reasoning, Planning, and Tool Calling: A Survey'
+  authors: Tula Masterman et al.
+  venue: arXiv 2024
+  arxiv: '2404.11584'
+  year: 2024
+  category: survey-agent
+- title: 'Understanding the Planning of LLM Agents: A Survey'
+  authors: Xu Huang et al.
+  venue: arXiv 2024
+  arxiv: '2402.02716'
+  year: 2024
+  category: survey-agent
+- title: 'Agent AI: Surveying the Horizons of Multimodal Interaction'
+  authors: Zane Durante et al.
+  venue: arXiv 2024
+  arxiv: '2401.03568'
+  year: 2024
+  category: survey-agent
+- title: An In-depth Survey of Large Language Model-based Artificial Intelligence Agents
+  authors: Pengyu Zhao et al.
+  venue: arXiv 2023
+  arxiv: '2309.14365'
+  year: 2023
+  category: survey-agent
+- title: 'The Rise and Potential of Large Language Model Based Agents: A Survey'
+  authors: Zhiheng Xi et al.
+  venue: SCIS 2025
+  arxiv: '2309.07864'
+  year: 2025
+  code: https://github.com/WooooDyy/LLM-Agent-Paper-List
+  category: survey-agent
+- title: A Survey on Large Language Model based Autonomous Agents
+  authors: Lei Wang et al.
+  venue: Frontiers of Computer Science 2024
+  arxiv: '2308.11432'
+  year: 2024
+  code: https://github.com/Paitesanshi/LLM-Agent-Survey
+  category: survey-agent
+- title: A Technical Taxonomy of LLM Agent Communication Protocols
+  authors: Linus Sander et al.
+  venue: arXiv 2026
+  arxiv: '2606.19135'
+  year: 2026
+  category: survey-topic
+- title: 'Survey of LLM Agent Communication with MCP: A Software Design Pattern Centric Review'
+  authors: Anjana Sarkar et al.
+  venue: arXiv 2025
+  arxiv: '2506.05364'
+  year: 2025
+  category: survey-topic
+- title: 'Internet of Agents: Fundamentals, Applications, and Challenges'
+  authors: Yuntao Wang et al.
+  venue: IEEE TCCN 2025
+  arxiv: '2505.07176'
+  year: 2025
+  category: survey-topic
+- title: 'A Survey of Agent Interoperability Protocols: Model Context Protocol (MCP), Agent Communication Protocol (ACP), Agent-to-Agent Protocol (A2A), and Agent Network Protocol (ANP)'
+  authors: Abul Ehtesham et al.
+  venue: arXiv 2025
+  arxiv: '2505.02279'
+  year: 2025
+  category: survey-topic
+- title: A Survey of AI Agent Protocols
+  authors: Yingxuan Yang et al.
+  venue: arXiv 2025
+  arxiv: '2504.16736'
+  year: 2025
+  category: survey-topic
+- title: 'Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions'
+  authors: Xinyi Hou et al.
+  venue: ACM TOSEM
+  arxiv: '2503.23278'
+  code: https://github.com/security-pride/MCP_Landscape
+  category: survey-topic
+- title: 'Beyond Self-Talk: A Communication-Centric Survey of LLM-Based Multi-Agent Systems'
+  authors: Bingyu Yan et al.
+  venue: arXiv 2025
+  arxiv: '2502.14321'
+  year: 2025
+  category: survey-topic
+- title: 'Multi-Agent Debate Strategies: Survey, Taxonomy, and Challenges'
+  authors: Quim Motger et al.
+  venue: arXiv 2026
+  arxiv: '2607.26212'
+  year: 2026
+  category: survey-mas
+- title: Reinforcement Learning for LLM-based Multi-Agent Systems through Orchestration Traces
+  authors: Chenchen Zhang
+  venue: arXiv 2026
+  arxiv: '2605.02801'
+  year: 2026
+  category: survey-mas
+- title: A Survey on Large Language Model based Human-Agent Systems
+  authors: Henry Peng Zou et al.
+  venue: arXiv 2025
+  arxiv: '2505.00753'
+  year: 2025
+  code: https://github.com/HenryPengZou/Awesome-LLM-Based-Human-Agent-System-Papers
+  category: survey-mas
+- title: 'Meta-Thinking in LLMs via Multi-Agent Reinforcement Learning: A Survey'
+  authors: Ahsan Bilal et al.
+  venue: arXiv 2025
+  arxiv: '2504.14520'
+  year: 2025
+  category: survey-mas
+- title: 'A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives'
+  authors: Weiqiang Jin et al.
+  venue: arXiv 2025
+  arxiv: '2503.13415'
+  year: 2025
+  category: survey-mas
+- title: 'Multi-Agent Coordination across Diverse Applications: A Survey'
+  authors: Lijun Sun et al.
+  venue: arXiv 2025
+  arxiv: '2502.14743'
+  year: 2025
+  category: survey-mas
+- title: 'Multi-Agent Collaboration Mechanisms: A Survey of LLMs'
+  authors: Khanh-Tung Tran et al.
+  venue: arXiv 2025
+  arxiv: '2501.06322'
+  year: 2025
+  category: survey-mas
+- title: A Survey on Large Language Model-Based Social Agents in Game-Theoretic Scenarios
+  authors: Xiachong Feng et al.
+  venue: arXiv 2024
+  arxiv: '2412.03920'
+  year: 2024
+  category: survey-mas
+- title: 'LLM-based Multi-Agent Reinforcement Learning: Current and Future Directions'
+  authors: Chuanneng Sun et al.
+  venue: arXiv 2024
+  arxiv: '2405.11106'
+  year: 2024
+  category: survey-mas
+- title: 'Evaluation and Benchmarking of LLM Agents: A Survey'
+  authors: Mahmoud Mohammadi et al.
+  venue: arXiv 2025
+  arxiv: '2507.21504'
+  year: 2025
+  category: survey-topic
+- title: 'Evolutionary Perspectives on the Evaluation of LLM-Based AI Agents: A Comprehensive Survey'
+  authors: Jiachen Zhu et al.
+  venue: arXiv 2025
+  arxiv: '2506.11102'
+  year: 2025
+  category: survey-topic
+- title: 'Evaluating LLM-based Agents for Multi-Turn Conversations: A Survey'
+  authors: Shengyue Guan et al.
+  venue: arXiv 2025
+  arxiv: '2503.22458'
+  year: 2025
+  category: survey-topic
+- title: Survey on Evaluation of LLM-based Agents
+  authors: Asaf Yehudai et al.
+  venue: arXiv 2025
+  arxiv: '2503.16416'
+  year: 2025
+  category: survey-topic
+- title: 'SoK: When Safe Agents Fail Together: The Security of Multi Agent LLM Systems'
+  authors: Rui Yang et al.
+  venue: arXiv 2026
+  arxiv: '2609.00595'
+  year: 2026
+  category: survey-topic
+- title: 'A Systematic Survey of Security Threats and Defenses in LLM-Based AI Agents: A Layered Attack Surface Framework'
+  authors: Kexin Chu
+  venue: arXiv 2026
+  arxiv: '2604.23338'
+  year: 2026
+  category: survey-topic
+- title: 'TRiSM for Agentic AI: A Review of Trust, Risk, and Security Management in LLM-based Agentic Multi-Agent Systems'
+  authors: Shaina Raza et al.
+  venue: arXiv 2025
+  arxiv: '2506.04133'
+  year: 2025
+  category: survey-topic
+- title: 'Open Challenges in Multi-Agent Security: Towards Secure Systems of Interacting AI Agents'
+  authors: Christian Schroeder de Witt et al.
+  venue: arXiv 2025
+  arxiv: '2505.02077'
+  year: 2025
+  category: survey-topic
+- title: 'A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment'
+  authors: Kun Wang et al.
+  venue: arXiv 2025
+  arxiv: '2504.15585'
+  year: 2025
+  category: survey-topic
+- title: 'A Survey on Trustworthy LLM Agents: Threats and Countermeasures'
+  authors: Miao Yu et al.
+  venue: KDD 2025
+  arxiv: '2503.09648'
+  year: 2025
+  category: survey-topic
+- title: Multi-Agent Risks from Advanced AI
+  authors: Lewis Hammond et al.
+  venue: arXiv 2025
+  arxiv: '2502.14143'
+  year: 2025
+  category: survey-topic
+- title: 'Position: Towards a Responsible LLM-empowered Multi-Agent Systems'
+  authors: Jinwei Hu et al.
+  venue: arXiv 2025
+  arxiv: '2502.01714'
+  year: 2025
+  category: survey-topic
+- title: 'Navigating the Risks: A Survey of Security, Privacy, and Ethics Threats in LLM-Based Agents'
+  authors: Yuyou Gan et al.
+  venue: arXiv 2024
+  arxiv: '2411.09523'
+  year: 2024
+  category: survey-topic
+- title: 'The Emerged Security and Privacy of LLM Agent: A Survey with Case Studies'
+  authors: Feng He et al.
+  venue: arXiv 2024
+  arxiv: '2407.19354'
+  year: 2024
+  category: survey-topic
+- title: 'Towards Scientific Intelligence: A Survey of LLM-based Scientific Agents'
+  authors: Shuo Ren et al.
+  venue: arXiv 2025
+  arxiv: '2503.24047'
+  year: 2025
+  category: survey-topic
+- title: 'Agentic AI for Scientific Discovery: A Survey of Progress, Challenges, and Future Directions'
+  authors: Mourad Gridach et al.
+  venue: arXiv 2025
+  arxiv: '2503.08979'
+  year: 2025
+  category: survey-topic
+- title: 'A Survey of LLM-based Agents in Medicine: How far are we from Baymax?'
+  authors: Wenxuan Wang et al.
+  venue: arXiv 2025
+  arxiv: '2502.11211'
+  year: 2025
+  category: survey-topic
+- title: 'Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG'
+  authors: Aditi Singh et al.
+  venue: arXiv 2025
+  arxiv: '2501.09136'
+  year: 2025
+  category: survey-topic
+- title: 'From Individual to Society: A Survey on Social Simulation Driven by Large Language Model-based Agents'
+  authors: Xinyi Mou et al.
+  venue: arXiv 2024
+  arxiv: '2412.03563'
+  year: 2024
+  code: https://github.com/FudanDISC/SocialAgent
+  category: survey-topic
+- title: 'Large Language Model-Brained GUI Agents: A Survey'
+  authors: Chaoyun Zhang et al.
+  venue: arXiv 2024
+  arxiv: '2411.18279'
+  year: 2024
+  category: survey-topic
+- title: 'Agents in Software Engineering: Survey, Landscape, and Vision'
+  authors: Yanlin Wang et al.
+  venue: arXiv 2024
+  arxiv: '2409.09030'
+  year: 2024
+  category: survey-topic
+- title: 'Large Language Model-Based Agents for Software Engineering: A Survey'
+  authors: Junwei Liu et al.
+  venue: arXiv 2024
+  arxiv: '2409.02977'
+  year: 2024
+  category: survey-topic
+- title: A Survey on Large Language Model-Based Game Agents
+  authors: Sihao Hu et al.
+  venue: arXiv 2024
+  arxiv: '2404.02039'
+  year: 2024
+  category: survey-topic
+- title: 'Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives'
+  authors: Chen Gao et al.
+  venue: Humanities & Social Sciences Communications 2024
+  arxiv: '2312.11970'
+  year: 2024
+  category: survey-topic

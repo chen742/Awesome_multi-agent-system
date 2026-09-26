@@ -27,32 +27,22 @@ If you find this repository helpful, please give it a ⭐ — it helps more rese
 
 ## 🔥 News
 
+- **[2026/09]** 🤖 Added one-line TL;DRs (💡) for must-read and recent papers, taxonomy & trend figures, and a daily arXiv watcher that proposes new papers as issues.
 - **[2026/09]** 🎉 Repository launched with {{PAPER_COUNT}} curated papers across 20+ categories!
 
 ## 🗺️ Taxonomy
 
-```
-LLM-based Multi-Agent Systems
-├── Surveys ─────────────────── MAS surveys · agent surveys · topic surveys
-├── Frameworks & Infrastructure ── AutoGen · MetaGPT · CAMEL · AgentScope · ...
-├── Architecture & Organization
-│   ├── Communication topology & organization structure
-│   ├── Automated MAS design & agentic workflow optimization
-│   ├── Communication protocols & interoperability (MCP, A2A, ...)
-│   └── Memory & context sharing
-├── Collaboration & Reasoning ── multi-agent debate · role-play · cooperation
-├── Training Multi-Agent LLMs ── multi-agent fine-tuning · MARL for LLMs
-├── Evaluation & Analysis ────── benchmarks · failure attribution · scaling
-├── Safety & Security ───────── attacks · defenses · robustness
-└── Applications ────────────── software · science · social simulation ·
-                                 games & embodied · medicine · finance · ...
-```
+<p align="center"><img src="assets/taxonomy.svg" width="860" alt="Taxonomy of LLM-based multi-agent systems"></p>
 
 ## 🌟 Must-Read Papers
 
 New to LLM multi-agent systems? Start with these milestone papers (in chronological order).
 
 {{MUST_READ}}
+
+## 📊 Statistics
+
+<p align="center"><img src="assets/trend.svg" width="860" alt="Papers per quarter"></p>
 
 ## 📑 Table of Contents
 

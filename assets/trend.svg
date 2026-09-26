@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" width="960" height="360" role="img" aria-labelledby="t d">
+<title id="t">Papers in this list per quarter</title>
+<desc id="d">2023 Q1: 1, 2023 Q2: 7, 2023 Q3: 23, 2023 Q4: 30, 2024 Q1: 27, 2024 Q2: 33, 2024 Q3: 31, 2024 Q4: 38, 2025 Q1: 57, 2025 Q2: 60, 2025 Q3: 40, 2025 Q4: 30, 2026 Q1: 36, 2026 Q2: 29, 2026 Q3: 15</desc>
+<style>
+  .surface { fill: #fcfcfb; }
+  .card { fill: #ffffff; stroke: #e4e3df; }
+  .ink1 { fill: #0b0b0b; }
+  .ink2 { fill: #52514e; }
+  .ink3 { fill: #7a7975; }
+  .grid { stroke: #e4e3df; }
+  .axis { stroke: #b9b8b3; }
+  .bar { fill: #2a78d6; }
+  .s0 { fill: #2a78d6; }
+  .s1 { fill: #eb6834; }
+  .s2 { fill: #1baf7a; }
+  .s3 { fill: #eda100; }
+  .s4 { fill: #e87ba4; }
+  .s5 { fill: #008300; }
+  .s6 { fill: #4a3aa7; }
+  .s7 { fill: #e34948; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; }
+    .card { fill: #232322; stroke: #383835; }
+    .ink1 { fill: #ffffff; }
+    .ink2 { fill: #c3c2b7; }
+    .ink3 { fill: #9a998f; }
+    .grid { stroke: #383835; }
+    .axis { stroke: #5a5955; }
+    .bar { fill: #3987e5; }
+    .s0 { fill: #3987e5; }
+    .s1 { fill: #d95926; }
+    .s2 { fill: #199e70; }
+    .s3 { fill: #c98500; }
+    .s4 { fill: #d55181; }
+    .s5 { fill: #008300; }
+    .s6 { fill: #9085e9; }
+    .s7 { fill: #e66767; }
+  }
+  text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+</style>
+<rect class="surface" width="960" height="360" rx="12"/>
+<text class="ink1" x="56" y="36" font-size="18" font-weight="700">Papers in this list per quarter</text>
+<text class="ink2" x="56" y="58" font-size="13">By arXiv submission date · 457 papers with arXiv IDs · 2026 Q3 still in progress</text>
+<line class="axis" x1="56" x2="936" y1="304.0" y2="304.0" stroke-width="1"/>
+<text class="ink3" x="48" y="308.0" text-anchor="end" font-size="12">0</text>
+<line class="grid" x1="56" x2="936" y1="266.0" y2="266.0" stroke-width="1"/>
+<text class="ink3" x="48" y="270.0" text-anchor="end" font-size="12">10</text>
+<line class="grid" x1="56" x2="936" y1="228.0" y2="228.0" stroke-width="1"/>
+<text class="ink3" x="48" y="232.0" text-anchor="end" font-size="12">20</text>
+<line class="grid" x1="56" x2="936" y1="190.0" y2="190.0" stroke-width="1"/>
+<text class="ink3" x="48" y="194.0" text-anchor="end" font-size="12">30</text>
+<line class="grid" x1="56" x2="936" y1="152.0" y2="152.0" stroke-width="1"/>
+<text class="ink3" x="48" y="156.0" text-anchor="end" font-size="12">40</text>
+<line class="grid" x1="56" x2="936" y1="114.0" y2="114.0" stroke-width="1"/>
+<text class="ink3" x="48" y="118.0" text-anchor="end" font-size="12">50</text>
+<line class="grid" x1="56" x2="936" y1="76.0" y2="76.0" stroke-width="1"/>
+<text class="ink3" x="48" y="80.0" text-anchor="end" font-size="12">60</text>
+<path class="bar" d="M68.33333333333333,304 V304.0 Q68.33333333333333,300.2 72.13333333333334,300.2 H98.53333333333332 Q102.33333333333333,300.2 102.33333333333333,304.0 V304 Z"><title>2023 Q1: 1 papers</title></path>
+<text class="ink3" x="85.33333333333333" y="322" text-anchor="middle" font-size="11.5">Q1</text>
+<text class="ink2" x="85.33333333333333" y="340" text-anchor="middle" font-size="12.5" font-weight="600">2023</text>
+<path class="bar" d="M127.0,304 V281.4 Q127.0,277.4 131.0,277.4 H157.0 Q161.0,277.4 161.0,281.4 V304 Z"><title>2023 Q2: 7 papers</title></path>
+<text class="ink3" x="144.0" y="322" text-anchor="middle" font-size="11.5">Q2</text>
+<path class="bar" d="M185.66666666666666,304 V220.6 Q185.66666666666666,216.6 189.66666666666666,216.6 H215.66666666666666 Q219.66666666666666,216.6 219.66666666666666,220.6 V304 Z"><title>2023 Q3: 23 papers</title></path>
+<text class="ink3" x="202.66666666666666" y="322" text-anchor="middle" font-size="11.5">Q3</text>
+<path class="bar" d="M244.33333333333331,304 V194.0 Q244.33333333333331,190.0 248.33333333333331,190.0 H274.3333333333333 Q278.3333333333333,190.0 278.3333333333333,194.0 V304 Z"><title>2023 Q4: 30 papers</title></path>
+<text class="ink3" x="261.3333333333333" y="322" text-anchor="middle" font-size="11.5">Q4</text>
+<path class="bar" d="M302.99999999999994,304 V205.39999999999998 Q302.99999999999994,201.39999999999998 306.99999999999994,201.39999999999998 H332.99999999999994 Q336.99999999999994,201.39999999999998 336.99999999999994,205.39999999999998 V304 Z"><title>2024 Q1: 27 papers</title></path>
+<text class="ink3" x="319.99999999999994" y="322" text-anchor="middle" font-size="11.5">Q1</text>
+<text class="ink2" x="319.99999999999994" y="340" text-anchor="middle" font-size="12.5" font-weight="600">2024</text>
+<path class="bar" d="M361.66666666666663,304 V182.6 Q361.66666666666663,178.6 365.66666666666663,178.6 H391.66666666666663 Q395.66666666666663,178.6 395.66666666666663,182.6 V304 Z"><title>2024 Q2: 33 papers</title></path>
+<text class="ink3" x="378.66666666666663" y="322" text-anchor="middle" font-size="11.5">Q2</text>
+<path class="bar" d="M420.3333333333333,304 V190.2 Q420.3333333333333,186.2 424.3333333333333,186.2 H450.3333333333333 Q454.3333333333333,186.2 454.3333333333333,190.2 V304 Z"><title>2024 Q3: 31 papers</title></path>
+<text class="ink3" x="437.3333333333333" y="322" text-anchor="middle" font-size="11.5">Q3</text>
+<path class="bar" d="M478.99999999999994,304 V163.6 Q478.99999999999994,159.6 482.99999999999994,159.6 H509.0 Q513.0,159.6 513.0,163.6 V304 Z"><title>2024 Q4: 38 papers</title></path>
+<text class="ink3" x="495.99999999999994" y="322" text-anchor="middle" font-size="11.5">Q4</text>
+<path class="bar" d="M537.6666666666666,304 V91.4 Q537.6666666666666,87.4 541.6666666666666,87.4 H567.6666666666666 Q571.6666666666666,87.4 571.6666666666666,91.4 V304 Z"><title>2025 Q1: 57 papers</title></path>
+<text class="ink3" x="554.6666666666666" y="322" text-anchor="middle" font-size="11.5">Q1</text>
+<text class="ink2" x="554.6666666666666" y="340" text-anchor="middle" font-size="12.5" font-weight="600">2025</text>
+<path class="bar" d="M596.3333333333334,304 V80.0 Q596.3333333333334,76.0 600.3333333333334,76.0 H626.3333333333334 Q630.3333333333334,76.0 630.3333333333334,80.0 V304 Z"><title>2025 Q2: 60 papers</title></path>
+<text class="ink1" x="613.3333333333334" y="68.0" text-anchor="middle" font-size="12" font-weight="600">60</text>
+<text class="ink3" x="613.3333333333334" y="322" text-anchor="middle" font-size="11.5">Q2</text>
+<path class="bar" d="M655.0,304 V156.0 Q655.0,152.0 659.0,152.0 H685.0 Q689.0,152.0 689.0,156.0 V304 Z"><title>2025 Q3: 40 papers</title></path>
+<text class="ink3" x="672.0" y="322" text-anchor="middle" font-size="11.5">Q3</text>
+<path class="bar" d="M713.6666666666666,304 V194.0 Q713.6666666666666,190.0 717.6666666666666,190.0 H743.6666666666666 Q747.6666666666666,190.0 747.6666666666666,194.0 V304 Z"><title>2025 Q4: 30 papers</title></path>
+<text class="ink3" x="730.6666666666666" y="322" text-anchor="middle" font-size="11.5">Q4</text>
+<path class="bar" d="M772.3333333333334,304 V171.20000000000002 Q772.3333333333334,167.20000000000002 776.3333333333334,167.20000000000002 H802.3333333333334 Q806.3333333333334,167.20000000000002 806.3333333333334,171.20000000000002 V304 Z"><title>2026 Q1: 36 papers</title></path>
+<text class="ink3" x="789.3333333333334" y="322" text-anchor="middle" font-size="11.5">Q1</text>
+<text class="ink2" x="789.3333333333334" y="340" text-anchor="middle" font-size="12.5" font-weight="600">2026</text>
+<path class="bar" d="M831.0,304 V197.8 Q831.0,193.8 835.0,193.8 H861.0 Q865.0,193.8 865.0,197.8 V304 Z"><title>2026 Q2: 29 papers</title></path>
+<text class="ink3" x="848.0" y="322" text-anchor="middle" font-size="11.5">Q2</text>
+<path class="bar" d="M889.6666666666666,304 V251.0 Q889.6666666666666,247.0 893.6666666666666,247.0 H919.6666666666666 Q923.6666666666666,247.0 923.6666666666666,251.0 V304 Z"><title>2026 Q3: 15 papers</title></path>
+<text class="ink1" x="906.6666666666666" y="239.0" text-anchor="middle" font-size="12" font-weight="600">15</text>
+<text class="ink3" x="906.6666666666666" y="322" text-anchor="middle" font-size="11.5">Q3</text>
+</svg>

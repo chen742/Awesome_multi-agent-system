@@ -26,52 +26,63 @@
 
 ## 🔥 最新动态
 
+- **[2026/09]** 🤖 为必读论文和近期论文添加一句话总结（💡）、分类体系图与趋势图，并上线每日 arXiv 追踪（自动以 Issue 形式推荐新论文）。
 - **[2026/09]** 🎉 仓库上线，收录 459 篇精选论文，覆盖 20+ 个类别！
 
 ## 🗺️ 分类体系
 
-```
-LLM 多智能体系统
-├── 综述 ───────────────── MAS 综述 · 智能体综述 · 专题综述
-├── 框架与基础设施 ────────── AutoGen · MetaGPT · CAMEL · AgentScope · ...
-├── 架构与组织
-│   ├── 通信拓扑与组织结构
-│   ├── 自动化 MAS 设计与智能体工作流优化
-│   ├── 智能体通信协议与互操作（MCP、A2A 等）
-│   └── 记忆与上下文共享
-├── 协作与推理 ───────────── 多智能体辩论 · 角色扮演 · 合作
-├── 多智能体 LLM 训练 ─────── 多智能体微调 · 面向 LLM 的多智能体强化学习
-├── 评测与分析 ───────────── 基准 · 失败归因 · 扩展规律
-├── 安全 ────────────────── 攻击 · 防御 · 鲁棒性
-└── 应用 ────────────────── 软件工程 · 科学发现 · 社会模拟 ·
-                             游戏与具身 · 医疗 · 金融 · ...
-```
+<p align="center"><img src="assets/taxonomy.svg" width="860" alt="Taxonomy of LLM-based multi-agent systems"></p>
 
 ## 🌟 必读论文
 
 刚接触 LLM 多智能体系统？建议从这些里程碑论文开始（按时间顺序）。
 
 - `[2023/03]` **CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society**. :star: *Li et al.* ![NeurIPS 2023](https://img.shields.io/badge/NeurIPS_2023-blue) [[Paper](https://arxiv.org/abs/2303.17760)] [[Code](https://github.com/camel-ai/camel)] ![Stars](https://img.shields.io/github/stars/camel-ai/camel?style=social)
+  <br>💡 Introduces role-playing with inception prompting so two agents (AI user and AI assistant) cooperate autonomously on tasks; releases large conversational datasets.
 - `[2023/04]` **Generative Agents: Interactive Simulacra of Human Behavior**. :star: *Park et al.* ![UIST 2023](https://img.shields.io/badge/UIST_2023-blue) [[Paper](https://arxiv.org/abs/2304.03442)] [[Code](https://github.com/joonspk-research/generative_agents)] ![Stars](https://img.shields.io/github/stars/joonspk-research/generative_agents?style=social)
+  <br>💡 Simulates a small town of 25 agents with memory, reflection and planning, producing believable individual and emergent social behavior.
 - `[2023/05]` **Improving Factuality and Reasoning in Language Models through Multiagent Debate**. :star: *Du et al.* ![ICML 2024](https://img.shields.io/badge/ICML_2024-blue) [[Paper](https://arxiv.org/abs/2305.14325)] [[Code](https://github.com/composable-models/llm_multiagent_debate)] ![Stars](https://img.shields.io/github/stars/composable-models/llm_multiagent_debate?style=social)
+  <br>💡 Has multiple LLM instances propose and debate answers over several rounds, improving math reasoning and reducing factual hallucinations.
 - `[2023/05]` **Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate**. :star: *Liang et al.* ![EMNLP 2024](https://img.shields.io/badge/EMNLP_2024-blue) [[Paper](https://arxiv.org/abs/2305.19118)] [[Code](https://github.com/Skytliang/Multi-Agents-Debate)] ![Stars](https://img.shields.io/github/stars/Skytliang/Multi-Agents-Debate?style=social)
+  <br>💡 Proposes the MAD framework, where agents argue in a tit-for-tat manner and a judge decides, to counter the Degeneration-of-Thought of self-reflection.
 - `[2023/07]` **ChatDev: Communicative Agents for Software Development**. :star: *Qian et al.* ![ACL 2024](https://img.shields.io/badge/ACL_2024-blue) [[Paper](https://arxiv.org/abs/2307.07924)] [[Code](https://github.com/OpenBMB/ChatDev)] ![Stars](https://img.shields.io/github/stars/OpenBMB/ChatDev?style=social)
+  <br>💡 Builds a virtual software company whose role-playing agents follow a chat chain through design, coding and testing to produce software.
 - `[2023/08]` **MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework**. :star: *Hong et al.* ![ICLR 2024](https://img.shields.io/badge/ICLR_2024-blue) [[Paper](https://arxiv.org/abs/2308.00352)] [[Code](https://github.com/FoundationAgents/MetaGPT)] ![Stars](https://img.shields.io/github/stars/FoundationAgents/MetaGPT?style=social)
+  <br>💡 Encodes human Standardized Operating Procedures into role-specialized agents that exchange structured documents to build software.
 - `[2023/08]` **AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation**. :star: *Wu et al.* ![COLM 2024](https://img.shields.io/badge/COLM_2024-blue) [[Paper](https://arxiv.org/abs/2308.08155)] [[Code](https://github.com/microsoft/autogen)] ![Stars](https://img.shields.io/github/stars/microsoft/autogen?style=social)
+  <br>💡 An open-source framework for building applications from conversable, customizable agents that combine LLMs, humans and tools.
 - `[2023/08]` **AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors**. :star: *Chen et al.* ![ICLR 2024](https://img.shields.io/badge/ICLR_2024-blue) [[Paper](https://arxiv.org/abs/2308.10848)] [[Code](https://github.com/OpenBMB/AgentVerse)] ![Stars](https://img.shields.io/github/stars/OpenBMB/AgentVerse?style=social)
+  <br>💡 A framework that dynamically recruits and adjusts expert agent groups, and studies the emergent social behaviors of agent collaboration.
 - `[2023/08]` **A Survey on Large Language Model based Autonomous Agents**. :star: *Lei Wang et al.* ![Frontiers of Computer Science 2024](https://img.shields.io/badge/Frontiers_of_Computer_Science_2024-blue) [[Paper](https://arxiv.org/abs/2308.11432)] [[Code](https://github.com/Paitesanshi/LLM-Agent-Survey)] ![Stars](https://img.shields.io/github/stars/Paitesanshi/LLM-Agent-Survey?style=social)
+  <br>💡 Surveys LLM-based autonomous agents through a unified construction framework (profile, memory, planning, action), applications and evaluation.
 - `[2023/09]` **The Rise and Potential of Large Language Model Based Agents: A Survey**. :star: *Zhiheng Xi et al.* ![SCIS 2025](https://img.shields.io/badge/SCIS_2025-blue) [[Paper](https://arxiv.org/abs/2309.07864)] [[Code](https://github.com/WooooDyy/LLM-Agent-Paper-List)] ![Stars](https://img.shields.io/github/stars/WooooDyy/LLM-Agent-Paper-List?style=social)
+  <br>💡 A comprehensive survey of LLM-based agents, covering the brain-perception-action framework, single/multi-agent and human-agent applications, and agent societies.
 - `[2024/02]` **Large Language Model based Multi-Agents: A Survey of Progress and Challenges**. :star: *Guo et al.* ![IJCAI 2024](https://img.shields.io/badge/IJCAI_2024-blue) [[Paper](https://arxiv.org/abs/2402.01680)] [[Code](https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers)] ![Stars](https://img.shields.io/github/stars/taichengguo/LLM_MultiAgents_Survey_Papers?style=social)
+  <br>💡 Surveys LLM-based multi-agent systems by environment, agent profiling, communication and capability acquisition, across problem solving and world simulation.
 - `[2024/02]` **More Agents Is All You Need**. :star: *Li et al.* ![TMLR 2024](https://img.shields.io/badge/TMLR_2024-blue) [[Paper](https://arxiv.org/abs/2402.05120)] [[Code](https://github.com/MoreAgentsIsAllYouNeed/AgentForest)] ![Stars](https://img.shields.io/github/stars/MoreAgentsIsAllYouNeed/AgentForest?style=social)
+  <br>💡 Shows that simply sampling many agents and taking a majority vote scales LLM performance with the number of agents.
 - `[2024/02]` **GPTSwarm: Language Agents as Optimizable Graphs**. :star: *Zhuge et al.* ![ICML 2024](https://img.shields.io/badge/ICML_2024-blue) [[Paper](https://arxiv.org/abs/2402.16823)] [[Code](https://github.com/metauto-ai/GPTSwarm)] ![Stars](https://img.shields.io/github/stars/metauto-ai/GPTSwarm?style=social)
+  <br>💡 Represents agent systems as computational graphs and automatically optimizes both node prompts and edge connectivity.
 - `[2024/06]` **Mixture-of-Agents Enhances Large Language Model Capabilities**. :star: *Wang et al.* ![ICLR 2025](https://img.shields.io/badge/ICLR_2025-blue) [[Paper](https://arxiv.org/abs/2406.04692)] [[Code](https://github.com/togethercomputer/MoA)] ![Stars](https://img.shields.io/github/stars/togethercomputer/MoA?style=social)
+  <br>💡 Layers multiple LLMs so each agent refines all outputs of the previous layer, achieving strong results with open-source models only.
 - `[2024/06]` **Scaling Large-Language-Model-based Multi-Agent Collaboration**. :star: *Qian et al.* ![ICLR 2025](https://img.shields.io/badge/ICLR_2025-blue) [[Paper](https://arxiv.org/abs/2406.07155)] [[Code](https://github.com/OpenBMB/ChatDev)] ![Stars](https://img.shields.io/github/stars/OpenBMB/ChatDev?style=social)
+  <br>💡 Organizes agents as directed acyclic graphs (MacNet) and finds a collaborative scaling law as the number of agents grows to over a thousand.
 - `[2024/08]` **Automated Design of Agentic Systems (ADAS)**. :star: *Shengran Hu et al.* ![ICLR 2025](https://img.shields.io/badge/ICLR_2025-blue) [[Paper](https://arxiv.org/abs/2408.08435)] [[Code](https://github.com/ShengranHu/ADAS)] ![Stars](https://img.shields.io/github/stars/ShengranHu/ADAS?style=social)
+  <br>💡 Proposes Meta Agent Search, where a meta agent programs new agentic systems in code and iteratively improves them from an archive of discoveries.
 - `[2024/10]` **AFlow: Automating Agentic Workflow Generation**. :star: *Jiayi Zhang et al.* ![ICLR 2025](https://img.shields.io/badge/ICLR_2025-blue) [[Paper](https://arxiv.org/abs/2410.10762)] [[Code](https://github.com/FoundationAgents/AFlow)] ![Stars](https://img.shields.io/github/stars/FoundationAgents/AFlow?style=social)
+  <br>💡 Formulates agentic workflow optimization as a search over code-represented workflows and solves it with Monte Carlo Tree Search.
 - `[2025/02]` **Multi-agent Architecture Search via Agentic Supernet**. :star: *Zhang et al.* ![ICML 2025](https://img.shields.io/badge/ICML_2025-blue) [[Paper](https://arxiv.org/abs/2502.04180)] [[Code](https://github.com/bingreeky/MaAS)] ![Stars](https://img.shields.io/github/stars/bingreeky/MaAS?style=social)
+  <br>💡 Optimizes a probabilistic agentic supernet and samples query-dependent multi-agent architectures, improving performance while reducing inference cost.
 - `[2025/03]` **MultiAgentBench: Evaluating the Collaboration and Competition of LLM agents**. :star: *Zhu et al.* ![ACL 2025](https://img.shields.io/badge/ACL_2025-blue) [[Paper](https://arxiv.org/abs/2503.01935)] [[Code](https://github.com/ulab-uiuc/MARBLE)] ![Stars](https://img.shields.io/github/stars/ulab-uiuc/MARBLE?style=social)
+  <br>💡 A benchmark (MARBLE) evaluating LLM multi-agent collaboration and competition across diverse interactive scenarios, with milestone-based metrics.
 - `[2025/03]` **Why Do Multi-Agent LLM Systems Fail?** :star: *Cemri et al.* ![NeurIPS 2025 D&B](https://img.shields.io/badge/NeurIPS_2025_D%26B-blue) [[Paper](https://arxiv.org/abs/2503.13657)] [[Code](https://github.com/multi-agent-systems-failure-taxonomy/MAST)] ![Stars](https://img.shields.io/github/stars/multi-agent-systems-failure-taxonomy/MAST?style=social)
+  <br>💡 Analyzes execution traces of popular MAS frameworks and proposes MAST, a taxonomy of 14 failure modes in three categories.
 - `[2025/05]` **Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems**. :star: *Zhang et al.* ![ICML 2025](https://img.shields.io/badge/ICML_2025-blue) [[Paper](https://arxiv.org/abs/2505.00212)] [[Code](https://github.com/ag2ai/Agents_Failure_Attribution)] ![Stars](https://img.shields.io/github/stars/ag2ai/Agents_Failure_Attribution?style=social)
+  <br>💡 Introduces automated failure attribution, identifying which agent and which step cause a MAS failure, with the Who&When dataset.
+
+## 📊 统计
+
+<p align="center"><img src="assets/trend.svg" width="860" alt="Papers per quarter"></p>
 
 ## 📑 目录
 
@@ -115,9 +126,13 @@ LLM 多智能体系统
 ### LLM-based Multi-Agent System Surveys
 
 - `[2026/07]` **Multi-Agent Debate Strategies: Survey, Taxonomy, and Challenges**. *Quim Motger et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2607.26212)]
+  <br>💡 Surveys 141 multi-agent debate studies with a taxonomy of participants, interaction mechanisms and agreement protocols, noting convergence on a narrow design pattern.
 - `[2026/05]` **Beyond Individual Intelligence: Surveying Collaboration, Failure Attribution, and Self-Evolution in LLM-based Multi-Agent Systems**. *Shihao Qi et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2605.14892)]
+  <br>💡 Surveys LLM-based multi-agent systems along a LIFE progression covering capability foundations, collaboration, failure attribution and self-evolution.
 - `[2026/05]` **Reinforcement Learning for LLM-based Multi-Agent Systems through Orchestration Traces**. *Chenchen Zhang*. ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2605.02801)]
+  <br>💡 Surveys reinforcement learning for LLM multi-agent systems through orchestration traces, covering reward design, credit assignment and spawn, delegate, communicate, aggregate and stop decisions.
 - `[2026/04]` **Multi-Agent Systems: From Classical Paradigms to Large Foundation Model-Enabled Futures**. *Zixiang Wang et al.* ![IEEE/CAA JAS 2026](https://img.shields.io/badge/IEEE%2FCAA_JAS_2026-blue) [[Paper](https://arxiv.org/abs/2604.18133)]
+  <br>💡 Surveys multi-agent systems from classical paradigms to large foundation model-based ones, comparing them across perception, communication, decision-making and control.
 - `[2026/02]` **Towards a Science of Collective AI: LLM-based Multi-Agent Systems Need a Transition from Blind Trial-and-Error to Rigorous Science**. *Jingru Fan et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2602.05289)]
 - `[2026/01]` **Game-Theoretic Lens on LLM-based Multi-Agent Systems**. *Jianing Hao et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2601.15047)]
 - `[2025/05]` **Creativity in LLM-based Multi-Agent Systems: A Survey**. *Yi-Cheng Lin et al.* ![EMNLP 2025](https://img.shields.io/badge/EMNLP_2025-blue) [[Paper](https://arxiv.org/abs/2505.21116)]
@@ -134,6 +149,7 @@ LLM 多智能体系统
 - `[2024/05]` **LLM-based Multi-Agent Reinforcement Learning: Current and Future Directions**. *Chuanneng Sun et al.* ![arXiv 2024](https://img.shields.io/badge/arXiv_2024-lightgrey) [[Paper](https://arxiv.org/abs/2405.11106)]
 - `[2024/02]` **LLM Multi-Agent Systems: Challenges and Open Problems**. *Shanshan Han et al.* ![arXiv 2024](https://img.shields.io/badge/arXiv_2024-lightgrey) [[Paper](https://arxiv.org/abs/2402.03578)]
 - `[2024/02]` **Large Language Model based Multi-Agents: A Survey of Progress and Challenges**. :star: *Guo et al.* ![IJCAI 2024](https://img.shields.io/badge/IJCAI_2024-blue) [[Paper](https://arxiv.org/abs/2402.01680)] [[Code](https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers)] ![Stars](https://img.shields.io/github/stars/taichengguo/LLM_MultiAgents_Survey_Papers?style=social)
+  <br>💡 Surveys LLM-based multi-agent systems by environment, agent profiling, communication and capability acquisition, across problem solving and world simulation.
 - `[2023/10]` **Balancing Autonomy and Alignment: A Multi-Dimensional Taxonomy for Autonomous LLM-powered Multi-Agent Architectures**. *Thorsten Händler*. ![arXiv 2023](https://img.shields.io/badge/arXiv_2023-lightgrey) [[Paper](https://arxiv.org/abs/2310.03659)]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -162,15 +178,20 @@ LLM 多智能体系统
 - `[2024/01]` **Agent AI: Surveying the Horizons of Multimodal Interaction**. *Zane Durante et al.* ![arXiv 2024](https://img.shields.io/badge/arXiv_2024-lightgrey) [[Paper](https://arxiv.org/abs/2401.03568)]
 - `[2023/09]` **An In-depth Survey of Large Language Model-based Artificial Intelligence Agents**. *Pengyu Zhao et al.* ![arXiv 2023](https://img.shields.io/badge/arXiv_2023-lightgrey) [[Paper](https://arxiv.org/abs/2309.14365)]
 - `[2023/09]` **The Rise and Potential of Large Language Model Based Agents: A Survey**. :star: *Zhiheng Xi et al.* ![SCIS 2025](https://img.shields.io/badge/SCIS_2025-blue) [[Paper](https://arxiv.org/abs/2309.07864)] [[Code](https://github.com/WooooDyy/LLM-Agent-Paper-List)] ![Stars](https://img.shields.io/github/stars/WooooDyy/LLM-Agent-Paper-List?style=social)
+  <br>💡 A comprehensive survey of LLM-based agents, covering the brain-perception-action framework, single/multi-agent and human-agent applications, and agent societies.
 - `[2023/08]` **A Survey on Large Language Model based Autonomous Agents**. :star: *Lei Wang et al.* ![Frontiers of Computer Science 2024](https://img.shields.io/badge/Frontiers_of_Computer_Science_2024-blue) [[Paper](https://arxiv.org/abs/2308.11432)] [[Code](https://github.com/Paitesanshi/LLM-Agent-Survey)] ![Stars](https://img.shields.io/github/stars/Paitesanshi/LLM-Agent-Survey?style=social)
+  <br>💡 Surveys LLM-based autonomous agents through a unified construction framework (profile, memory, planning, action), applications and evaluation.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Topic-Specific Surveys
 
 - `[2026/09]` **SoK: When Safe Agents Fail Together: The Security of Multi Agent LLM Systems**. *Rui Yang et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2609.00595)]
+  <br>💡 Systematizes multi-agent LLM system security across 197 works with an adversary-interface-risk framework and a five-part contract for organizing defenses.
 - `[2026/06]` **A Technical Taxonomy of LLM Agent Communication Protocols**. *Linus Sander et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2606.19135)]
+  <br>💡 Develops a five-dimension taxonomy of LLM agent communication protocols covering counterparty, payload, interaction state, discovery mechanism and schema flexibility.
 - `[2026/04]` **A Systematic Survey of Security Threats and Defenses in LLM-Based AI Agents: A Layered Attack Surface Framework**. *Kexin Chu*. ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2604.23338)]
+  <br>💡 Surveys LLM agent security threats and defenses with a seven-layer attack surface model plus a temporality axis, finding upper layers under-explored.
 - `[2025/07]` **Evaluation and Benchmarking of LLM Agents: A Survey**. *Mahmoud Mohammadi et al.* ![arXiv 2025](https://img.shields.io/badge/arXiv_2025-lightgrey) [[Paper](https://arxiv.org/abs/2507.21504)]
 - `[2025/06]` **Evolutionary Perspectives on the Evaluation of LLM-Based AI Agents: A Comprehensive Survey**. *Jiachen Zhu et al.* ![arXiv 2025](https://img.shields.io/badge/arXiv_2025-lightgrey) [[Paper](https://arxiv.org/abs/2506.11102)]
 - `[2025/06]` **Survey of LLM Agent Communication with MCP: A Software Design Pattern Centric Review**. *Anjana Sarkar et al.* ![arXiv 2025](https://img.shields.io/badge/arXiv_2025-lightgrey) [[Paper](https://arxiv.org/abs/2506.05364)]
@@ -209,7 +230,9 @@ LLM 多智能体系统
 ### Multi-Agent Frameworks
 
 - `[2026/09]` **Agensh: Scaling Organizational Intelligence to 1,024 Agents**. *Zhihao Zhan et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2609.26781)]
+  <br>💡 Presents Agensh, an orchestrator-free multi-agent harness where workers self-assign tasks via a shared workspace, message bus and shared context, scaling coding collaboration to 1,024 agents.
 - `[2026/05]` **PatchBoard: Schema-Grounded State Mutation for Reliable and Auditable LLM Multi-Agent Collaboration**. *Shuyu Zhang et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2605.29313)]
+  <br>💡 Proposes PatchBoard, which replaces free-form inter-agent dialogue with schema-validated JSON Patch mutations over shared state, making multi-agent collaboration reliable, attributable and auditable.
 - `[2026/02]` **Declarative by Design, Assistable Only by Convention: Benchmarking Multi-Agent Frameworks for AI-Assistability**. *Shafiuddin Rehan Ahmed et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2602.11198)]
 - `[2025/11]` **The OpenHands Software Agent SDK: A Composable and Extensible Foundation for Production Agents**. *Xingyao Wang et al.* ![arXiv 2025](https://img.shields.io/badge/arXiv_2025-lightgrey) [[Paper](https://arxiv.org/abs/2511.03690)] [[Code](https://github.com/OpenHands/software-agent-sdk)] ![Stars](https://img.shields.io/github/stars/OpenHands/software-agent-sdk?style=social)
 - `[2025/11]` **A Comprehensive Empirical Evaluation of Agent Frameworks**. *Zhuowen Yin et al.* ![arXiv 2025](https://img.shields.io/badge/arXiv_2025-lightgrey) [[Paper](https://arxiv.org/abs/2511.00872)]
@@ -230,11 +253,16 @@ LLM 多智能体系统
 - `[2024/02]` **AgentScope: A Flexible yet Robust Multi-Agent Platform**. *Dawei Gao et al.* ![arXiv 2024](https://img.shields.io/badge/arXiv_2024-lightgrey) [[Paper](https://arxiv.org/abs/2402.14034)] [[Code](https://github.com/agentscope-ai/agentscope)] ![Stars](https://img.shields.io/github/stars/agentscope-ai/agentscope?style=social)
 - `[2023/09]` **Agents: An Open-source Framework for Autonomous Language Agents**. *Wangchunshu Zhou et al.* ![arXiv 2023](https://img.shields.io/badge/arXiv_2023-lightgrey) [[Paper](https://arxiv.org/abs/2309.07870)] [[Code](https://github.com/aiwaves-cn/agents)] ![Stars](https://img.shields.io/github/stars/aiwaves-cn/agents?style=social)
 - `[2023/08]` **AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors**. :star: *Chen et al.* ![ICLR 2024](https://img.shields.io/badge/ICLR_2024-blue) [[Paper](https://arxiv.org/abs/2308.10848)] [[Code](https://github.com/OpenBMB/AgentVerse)] ![Stars](https://img.shields.io/github/stars/OpenBMB/AgentVerse?style=social)
+  <br>💡 A framework that dynamically recruits and adjusts expert agent groups, and studies the emergent social behaviors of agent collaboration.
 - `[2023/08]` **AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation**. :star: *Wu et al.* ![COLM 2024](https://img.shields.io/badge/COLM_2024-blue) [[Paper](https://arxiv.org/abs/2308.08155)] [[Code](https://github.com/microsoft/autogen)] ![Stars](https://img.shields.io/github/stars/microsoft/autogen?style=social)
+  <br>💡 An open-source framework for building applications from conversable, customizable agents that combine LLMs, humans and tools.
 - `[2023/08]` **AgentSims: An Open-Source Sandbox for Large Language Model Evaluation**. *Jiaju Lin et al.* ![arXiv 2023](https://img.shields.io/badge/arXiv_2023-lightgrey) [[Paper](https://arxiv.org/abs/2308.04026)] [[Code](https://github.com/py499372727/AgentSims)] ![Stars](https://img.shields.io/github/stars/py499372727/AgentSims?style=social)
 - `[2023/08]` **MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework**. :star: *Hong et al.* ![ICLR 2024](https://img.shields.io/badge/ICLR_2024-blue) [[Paper](https://arxiv.org/abs/2308.00352)] [[Code](https://github.com/FoundationAgents/MetaGPT)] ![Stars](https://img.shields.io/github/stars/FoundationAgents/MetaGPT?style=social)
+  <br>💡 Encodes human Standardized Operating Procedures into role-specialized agents that exchange structured documents to build software.
 - `[2023/07]` **ChatDev: Communicative Agents for Software Development**. :star: *Qian et al.* ![ACL 2024](https://img.shields.io/badge/ACL_2024-blue) [[Paper](https://arxiv.org/abs/2307.07924)] [[Code](https://github.com/OpenBMB/ChatDev)] ![Stars](https://img.shields.io/github/stars/OpenBMB/ChatDev?style=social)
+  <br>💡 Builds a virtual software company whose role-playing agents follow a chat chain through design, coding and testing to produce software.
 - `[2023/03]` **CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society**. :star: *Li et al.* ![NeurIPS 2023](https://img.shields.io/badge/NeurIPS_2023-blue) [[Paper](https://arxiv.org/abs/2303.17760)] [[Code](https://github.com/camel-ai/camel)] ![Stars](https://img.shields.io/github/stars/camel-ai/camel?style=social)
+  <br>💡 Introduces role-playing with inception prompting so two agents (AI user and AI assistant) cooperate autonomously on tasks; releases large conversational datasets.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -245,14 +273,23 @@ LLM 多智能体系统
 ### Communication Topology & Organization Structure
 
 - `[2026/09]` **Rethinking Multi-Agent Collaboration: When More Is Less**. *Yishuo Yuan et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2609.19759)]
+  <br>💡 Finds multi-agent collaboration helps mainly on long-horizon, sparsely dependent tasks with diminishing returns as models scale, and proposes SAIGE, a lightweight graph-evolution collaboration mechanism.
 - `[2026/09]` **Learning How Much to Collaborate: Difficulty-Aware Topology Selection for Multi-Agent Code Generation**. *Yunsong Hong et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2609.13890)]
+  <br>💡 Proposes DATS, a graph-network selector that picks a per-problem communication topology by trading predicted success against cost for multi-agent code generation.
 - `[2026/08]` **Reward-Guided Autoregressive Graph Generation for Efficient Multi-Agent Communication Topology Design**. *Poomphob Suwannapichat et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2608.20099)]
+  <br>💡 Proposes RGA-Designer, which fine-tunes an autoregressive topology generator with a reward model favoring correct and compact graphs, cutting token cost while preserving accuracy.
 - `[2026/08]` **Discovering Efficient and Explainable Communication Topologies for LLM-based Multi-Agent Systems via Causal Inference**. *Junzhi Li et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2608.12921)]
+  <br>💡 Proposes E2-Explainer, a model-agnostic method that estimates each communication edge's causal contribution by masking and extracts compact subgraphs to prune redundant multi-agent communication.
 - `[2026/05]` **AgentSlimming: Towards Efficient and Cost-Aware Multi-Agent Systems**. *Yulang Chen et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2605.08813)]
+  <br>💡 Proposes AgentSlimming, a plug-and-play framework that prunes redundant agents or swaps them for cheaper ones in graph-structured multi-agent workflows to cut token cost.
 - `[2026/05]` **Active Learning for Communication Structure Optimization in LLM-Based Multi-Agent Systems**. *Huchen Yang et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2605.05703)]
+  <br>💡 Proposes active task selection via ensemble Kalman inversion to optimize multi-agent communication graphs under limited budgets, improving accuracy and stability over random selection.
 - `[2026/04]` **Recursive Multi-Agent Systems**. *Xiyuan Yang et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2604.25917)]
+  <br>💡 Proposes RecursiveMAS, which casts a multi-agent system as a latent-space recursive computation, passing hidden states between agents and co-optimizing them with an inner-outer loop algorithm.
 - `[2026/04]` **Learning to Communicate: Toward End-to-End Optimization of Multi-Agent Language Systems**. *Ye Yu et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2604.21794)]
+  <br>💡 Proposes DiffMAS, a training framework that makes latent KV-cache communication between agents learnable, improving multi-agent reasoning accuracy and decoding stability.
 - `[2026/04]` **OrgAgent: Organize Your Multi-Agent System like a Company**. *Yiru Wang et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2604.01020)]
+  <br>💡 Proposes OrgAgent, a company-style hierarchical multi-agent framework with governance, execution and compliance layers that improves reasoning and reduces tokens versus flat collaboration.
 - `[2026/03]` **GoAgent: Group-of-Agents Communication Topology Generation for LLM-based Multi-Agent Systems**. *Hongjiang Chen et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2603.19677)]
 - `[2026/03]` **Graph-GRPO: Stabilizing Multi-Agent Topology Learning via Group Relative Policy Optimization**. *Yueyang Cang et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2603.02701)]
 - `[2026/02]` **AgentDropoutV2: Optimizing Information Flow in Multi-Agent Systems via Test-Time Rectify-or-Reject Pruning**. *Yutong Wang et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2602.23258)]
@@ -282,7 +319,9 @@ LLM 多智能体系统
 - `[2024/10]` **Cut the Crap: An Economical Communication Pipeline for LLM-based Multi-Agent Systems**. *Zhang et al.* ![ICLR 2025](https://img.shields.io/badge/ICLR_2025-blue) [[Paper](https://arxiv.org/abs/2410.02506)] [[Code](https://github.com/yanweiyue/AgentPrune)] ![Stars](https://img.shields.io/github/stars/yanweiyue/AgentPrune?style=social)
 - `[2024/06]` **Improving Multi-Agent Debate with Sparse Communication Topology**. *Li et al.* ![EMNLP 2024 Findings](https://img.shields.io/badge/EMNLP_2024_Findings-blue) [[Paper](https://arxiv.org/abs/2406.11776)]
 - `[2024/06]` **Scaling Large-Language-Model-based Multi-Agent Collaboration**. :star: *Qian et al.* ![ICLR 2025](https://img.shields.io/badge/ICLR_2025-blue) [[Paper](https://arxiv.org/abs/2406.07155)] [[Code](https://github.com/OpenBMB/ChatDev)] ![Stars](https://img.shields.io/github/stars/OpenBMB/ChatDev?style=social)
+  <br>💡 Organizes agents as directed acyclic graphs (MacNet) and finds a collaborative scaling law as the number of agents grows to over a thousand.
 - `[2024/02]` **GPTSwarm: Language Agents as Optimizable Graphs**. :star: *Zhuge et al.* ![ICML 2024](https://img.shields.io/badge/ICML_2024-blue) [[Paper](https://arxiv.org/abs/2402.16823)] [[Code](https://github.com/metauto-ai/GPTSwarm)] ![Stars](https://img.shields.io/github/stars/metauto-ai/GPTSwarm?style=social)
+  <br>💡 Represents agent systems as computational graphs and automatically optimizes both node prompts and edge connectivity.
 - `[2023/10]` **A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration**. *Liu et al.* ![COLM 2024](https://img.shields.io/badge/COLM_2024-blue) [[Paper](https://arxiv.org/abs/2310.02170)] [[Code](https://github.com/SALT-NLP/DyLAN)] ![Stars](https://img.shields.io/github/stars/SALT-NLP/DyLAN?style=social)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -290,11 +329,17 @@ LLM 多智能体系统
 ### Automated MAS Design & Agentic Workflow Optimization
 
 - `[2026/08]` **OptiMAS: Automatically Optimize Multi-Agent System**. *Yuxin Cheng et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2608.21918)]
+  <br>💡 Proposes OptiMAS, a task-agnostic agentic optimizer that evolves multi-agent systems end-to-end using interaction trajectories and task feedback as loss signals, with dual-track memory.
 - `[2026/08]` **ADIAS: Automated Design of Interactive Agentic Systems**. *Lekang Jiang et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2608.06410)]
+  <br>💡 Proposes ADIAS, an issue-centric agent design framework that keeps a persistent issue state to guide targeted code revisions of interactive agentic systems.
 - `[2026/06]` **Skill-MAS: Evolving Meta-Skill for Automatic Multi-Agent Systems**. *Hehai Lin et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2606.18837)]
+  <br>💡 Proposes Skill-MAS, which evolves an orchestration Meta-Skill via multi-trajectory rollout and selective reflection, letting frozen LLMs accumulate experience for automatic multi-agent system design.
 - `[2026/06]` **FlowBank: Query-Adaptive Agentic Workflows Optimization**. *Lingzhi Yuan et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2606.11290)]
+  <br>💡 Proposes FlowBank, which precomputes a compact portfolio of complementary agentic workflows offline and routes each query to the best one at inference time.
 - `[2026/05]` **MetaAgent-X: Breaking the Ceiling of Automatic Multi-Agent Systems via End-to-End Reinforcement Learning**. *Yaolun Zhang et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2605.14212)]
+  <br>💡 Proposes MetaAgent-X, an end-to-end reinforcement learning framework that jointly trains the designer and executor of automatic multi-agent systems via hierarchical rollouts and stagewise co-evolution.
 - `[2026/05]` **EvoMAS: Learning Execution-Time Workflows for Multi-Agent Systems**. *Chengdong Xu et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2605.08769)]
+  <br>💡 Proposes EvoMAS, which builds stage-specific multi-agent workflows during execution using a learned Workflow Adapter trained with policy gradients on long-horizon tasks.
 - `[2026/03]` **Unified-MAS: Universally Generating Domain-Specific Nodes for Empowering Automatic Multi-Agent Systems**. *Hehai Lin et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2603.21475)]
 - `[2026/02]` **MAS-on-the-Fly: Dynamic Adaptation of LLM-based Multi-Agent Systems at Test Time**. *Guangyi Liu et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2602.13671)]
 - `[2026/02]` **Dr. MAS: Stable Reinforcement Learning for Multi-Agent LLM Systems**. *Feng et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2602.08847)] [[Code](https://github.com/langfengQ/DrMAS)] ![Stars](https://img.shields.io/github/stars/langfengQ/DrMAS?style=social)
@@ -318,11 +363,14 @@ LLM 多智能体系统
 - `[2025/02]` **EvoFlow: Evolving Diverse Agentic Workflows On The Fly**. *Guibin Zhang et al.* ![arXiv 2025](https://img.shields.io/badge/arXiv_2025-lightgrey) [[Paper](https://arxiv.org/abs/2502.07373)]
 - `[2025/02]` **ScoreFlow: Mastering LLM Agent Workflows via Score-based Preference Optimization**. *Yinjie Wang et al.* ![arXiv 2025](https://img.shields.io/badge/arXiv_2025-lightgrey) [[Paper](https://arxiv.org/abs/2502.04306)] [[Code](https://github.com/Gen-Verse/ScoreFlow)] ![Stars](https://img.shields.io/github/stars/Gen-Verse/ScoreFlow?style=social)
 - `[2025/02]` **Multi-agent Architecture Search via Agentic Supernet**. :star: *Zhang et al.* ![ICML 2025](https://img.shields.io/badge/ICML_2025-blue) [[Paper](https://arxiv.org/abs/2502.04180)] [[Code](https://github.com/bingreeky/MaAS)] ![Stars](https://img.shields.io/github/stars/bingreeky/MaAS?style=social)
+  <br>💡 Optimizes a probabilistic agentic supernet and samples query-dependent multi-agent architectures, improving performance while reducing inference cost.
 - `[2025/02]` **Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies**. *Zhou et al.* ![ICLR 2026](https://img.shields.io/badge/ICLR_2026-blue) [[Paper](https://arxiv.org/abs/2502.02533)]
 - `[2025/01]` **Flow: Modularized Agentic Workflow Automation**. *Boye Niu et al.* ![ICLR 2025](https://img.shields.io/badge/ICLR_2025-blue) [[Paper](https://arxiv.org/abs/2501.07834)]
 - `[2024/10]` **AFlow: Automating Agentic Workflow Generation**. :star: *Jiayi Zhang et al.* ![ICLR 2025](https://img.shields.io/badge/ICLR_2025-blue) [[Paper](https://arxiv.org/abs/2410.10762)] [[Code](https://github.com/FoundationAgents/AFlow)] ![Stars](https://img.shields.io/github/stars/FoundationAgents/AFlow?style=social)
+  <br>💡 Formulates agentic workflow optimization as a search over code-represented workflows and solves it with Monte Carlo Tree Search.
 - `[2024/10]` **AgentSquare: Automatic LLM Agent Search in Modular Design Space**. *Yu Shang et al.* ![ICLR 2025](https://img.shields.io/badge/ICLR_2025-blue) [[Paper](https://arxiv.org/abs/2410.06153)] [[Code](https://github.com/tsinghua-fib-lab/AgentSquare)] ![Stars](https://img.shields.io/github/stars/tsinghua-fib-lab/AgentSquare?style=social)
 - `[2024/08]` **Automated Design of Agentic Systems (ADAS)**. :star: *Shengran Hu et al.* ![ICLR 2025](https://img.shields.io/badge/ICLR_2025-blue) [[Paper](https://arxiv.org/abs/2408.08435)] [[Code](https://github.com/ShengranHu/ADAS)] ![Stars](https://img.shields.io/github/stars/ShengranHu/ADAS?style=social)
+  <br>💡 Proposes Meta Agent Search, where a meta agent programs new agentic systems in code and iteratively improves them from an archive of discoveries.
 - `[2024/06]` **Symbolic Learning Enables Self-Evolving Agents**. *Wangchunshu Zhou et al.* ![arXiv 2024](https://img.shields.io/badge/arXiv_2024-lightgrey) [[Paper](https://arxiv.org/abs/2406.18532)] [[Code](https://github.com/aiwaves-cn/agents)] ![Stars](https://img.shields.io/github/stars/aiwaves-cn/agents?style=social)
 - `[2024/06]` **EvoAgent: Towards Automatic Multi-Agent Generation via Evolutionary Algorithms**. *Siyu Yuan et al.* ![NAACL 2025](https://img.shields.io/badge/NAACL_2025-blue) [[Paper](https://arxiv.org/abs/2406.14228)] [[Code](https://github.com/siyuyuan/evoagent)] ![Stars](https://img.shields.io/github/stars/siyuyuan/evoagent?style=social)
 - `[2023/09]` **AutoAgents: A Framework for Automatic Agent Generation**. *Guangyao Chen et al.* ![IJCAI 2024](https://img.shields.io/badge/IJCAI_2024-blue) [[Paper](https://arxiv.org/abs/2309.17288)] [[Code](https://github.com/Link-AGI/AutoAgents)] ![Stars](https://img.shields.io/github/stars/Link-AGI/AutoAgents?style=social)
@@ -332,10 +380,15 @@ LLM 多智能体系统
 ### Agent Communication Protocols & Interoperability
 
 - `[2026/09]` **A2ABreak: Systematic Security Analysis of the A2A Protocol**. *Alireza Lotfi et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2609.10871)]
+  <br>💡 Presents A2ABreak, a systematic security analysis of the A2A protocol that extracts a finite-state model from the specification and uncovers new protocol-level vulnerabilities.
 - `[2026/08]` **InterSAGE: The Secure and Verifiable Interoperability Protocol for An Internet of Agents**. *Zhenhua Zou et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2608.13030)]
+  <br>💡 Proposes InterSAGE, a trust-native protocol suite providing agent identity, verifiable capability discovery, trust negotiation and audit trails alongside MCP, A2A and similar protocols.
 - `[2026/07]` **A Comparative Study of MCP and A2A for Inter-Agent Coordination in LLM-Based Systems**. *Ionut Predoaia et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2607.23884)]
+  <br>💡 Compares MCP and A2A for LLM inter-agent coordination through an implementation, finding MCP lighter-weight while A2A offers richer stateful task support at higher complexity.
 - `[2026/06]` **Governance Gaps in Agent Interoperability Protocols: What MCP, A2A, and ACP Cannot Express**. *Richard Kang et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2606.31498)]
+  <br>💡 Analyzes MCP, A2A, ACP and other interoperability protocols against a governance taxonomy, finding voting and dissent preservation absent and governance a missing architectural layer.
 - `[2026/04]` **Beyond Message Passing: A Semantic View of Agent Communication Protocols**. *Dun Yuan et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2604.02369)]
+  <br>💡 Analyzes agent communication protocols across communication, syntactic and semantic layers, finding mature transport support but limited clarification, context alignment and verification.
 - `[2026/03]` **LDP: An Identity-Aware Protocol for Multi-Agent LLM Systems**. *Sunil Prakash et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2603.08852)]
 - `[2026/02]` **Beyond Context Sharing: A Unified Agent Communication Protocol (ACP) for Secure, Federated, and Autonomous Agent-to-Agent (A2A) Orchestration**. *Naveen Krishnan et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2602.15055)]
 - `[2026/02]` **Security Threat Modeling for Emerging AI-Agent Protocols: A Comparative Analysis of MCP, A2A, Agora, and ANP**. *Zeynab Anbiaee et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2602.11327)]
@@ -360,10 +413,15 @@ LLM 多智能体系统
 ### Memory & Context Sharing
 
 - `[2026/09]` **Collaborative Memory for Multi-Agent VLM Systems**. *Huixin Zhang et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2609.17921)]
+  <br>💡 Proposes a collaborative memory design for multi-agent VLM systems with local cache, shared working memory and persistent storage linking claims to visual evidence.
 - `[2026/09]` **AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems**. *Zachary Johnson et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2609.12320)]
+  <br>💡 Proposes AIM, a privacy-aware interoperable memory service that lets heterogeneous agents share a memory registry across users while keeping private memories hidden.
 - `[2026/06]` **Governed Shared Memory for Multi-Agent LLM Systems**. *Yanki Margalit et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2606.24535)]
+  <br>💡 Proposes a governed shared-memory architecture for multi-agent LLM systems with scoped retrieval, temporal supersession, provenance tracking and policy-controlled propagation, implemented in MemClaw.
 - `[2026/06]` **Decentralized Multi-Agent Systems with Shared Context**. *Yuzhen Mao et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2606.10662)]
+  <br>💡 Proposes DeLM, a decentralized multi-agent framework where agents asynchronously claim subtasks and write verified updates to a shared context instead of a central orchestrator.
 - `[2026/04]` **Mesh Memory Protocol: Semantic Infrastructure for Multi-Agent LLM Systems**. *Hongwei Xu et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2604.19540)]
+  <br>💡 Specifies Mesh Memory Protocol, a semantic infrastructure letting LLM agents share, evaluate and combine cognitive state field by field with traceable lineage across sessions.
 - `[2026/03]` **MemCollab: Cross-Model Memory Collaboration via Contrastive Trajectory Distillation**. *Yurui Chang et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2603.23234)]
 - `[2026/02]` **Learning to Share: Selective Memory for Efficient Parallel Agentic Systems**. *Joseph Fioresi et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2602.05965)]
 - `[2026/02]` **LatentMem: Customizing Latent Memory for Multi-Agent Systems**. *Muxin Fu et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2602.03036)]
@@ -388,6 +446,7 @@ LLM 多智能体系统
 ### Multi-Agent Debate & Collaborative Reasoning
 
 - `[2026/04]` **Graph-of-Agents: A Graph-based Framework for Multi-Agent LLM Collaboration**. *Yun et al.* ![ICLR 2026](https://img.shields.io/badge/ICLR_2026-blue) [[Paper](https://arxiv.org/abs/2604.17148)] [[Code](https://github.com/UNITES-Lab/GoA)] ![Stars](https://img.shields.io/github/stars/UNITES-Lab/GoA?style=social)
+  <br>💡 Proposes Graph-of-Agents, which samples relevant LLM agents via model cards, builds relevance edges between their responses, and refines answers through bidirectional message passing.
 - `[2025/11]` **Can LLM Agents Really Debate? A Controlled Study of Multi-Agent Debate in Logical Reasoning**. *Wu et al.* ![arXiv 2025](https://img.shields.io/badge/arXiv_2025-lightgrey) [[Paper](https://arxiv.org/abs/2511.07784)]
 - `[2025/10]` **Stop Wasting Your Tokens: Towards Efficient Runtime Multi-Agent Systems**. *Lin et al.* ![ICLR 2026](https://img.shields.io/badge/ICLR_2026-blue) [[Paper](https://arxiv.org/abs/2510.26585)]
 - `[2025/10]` **Stochastic Self-Organization in Multi-Agent Systems**. *Tastan et al.* ![ICLR 2026](https://img.shields.io/badge/ICLR_2026-blue) [[Paper](https://arxiv.org/abs/2510.00685)]
@@ -399,15 +458,19 @@ LLM 多智能体系统
 - `[2025/02]` **S2-MAD: Breaking the Token Barrier to Enhance Multi-Agent Debate Efficiency**. *Zeng et al.* ![NAACL 2025](https://img.shields.io/badge/NAACL_2025-blue) [[Paper](https://arxiv.org/abs/2502.04790)]
 - `[2024/09]` **GroupDebate: Enhancing the Efficiency of Multi-Agent Debate Using Group Discussion**. *Liu et al.* ![arXiv 2024](https://img.shields.io/badge/arXiv_2024-lightgrey) [[Paper](https://arxiv.org/abs/2409.14051)]
 - `[2024/06]` **Mixture-of-Agents Enhances Large Language Model Capabilities**. :star: *Wang et al.* ![ICLR 2025](https://img.shields.io/badge/ICLR_2025-blue) [[Paper](https://arxiv.org/abs/2406.04692)] [[Code](https://github.com/togethercomputer/MoA)] ![Stars](https://img.shields.io/github/stars/togethercomputer/MoA?style=social)
+  <br>💡 Layers multiple LLMs so each agent refines all outputs of the previous layer, achieving strong results with open-source models only.
 - `[2024/02]` **Rethinking the Bounds of LLM Reasoning: Are Multi-Agent Discussions the Key?** *Wang et al.* ![ACL 2024](https://img.shields.io/badge/ACL_2024-blue) [[Paper](https://arxiv.org/abs/2402.18272)]
 - `[2024/02]` **Debating with More Persuasive LLMs Leads to More Truthful Answers**. *Khan et al.* ![ICML 2024](https://img.shields.io/badge/ICML_2024-blue) [[Paper](https://arxiv.org/abs/2402.06782)] [[Code](https://github.com/ucl-dark/llm_debate)] ![Stars](https://img.shields.io/github/stars/ucl-dark/llm_debate?style=social)
 - `[2024/02]` **More Agents Is All You Need**. :star: *Li et al.* ![TMLR 2024](https://img.shields.io/badge/TMLR_2024-blue) [[Paper](https://arxiv.org/abs/2402.05120)] [[Code](https://github.com/MoreAgentsIsAllYouNeed/AgentForest)] ![Stars](https://img.shields.io/github/stars/MoreAgentsIsAllYouNeed/AgentForest?style=social)
+  <br>💡 Shows that simply sampling many agents and taking a majority vote scales LLM performance with the number of agents.
 - `[2023/12]` **Exchange-of-Thought: Enhancing Large Language Model Capabilities through Cross-Model Communication**. *Yin et al.* ![EMNLP 2023](https://img.shields.io/badge/EMNLP_2023-blue) [[Paper](https://arxiv.org/abs/2312.01823)]
 - `[2023/11]` **Should we be going MAD? A Look at Multi-Agent Debate Strategies for LLMs**. *Smit et al.* ![ICML 2024](https://img.shields.io/badge/ICML_2024-blue) [[Paper](https://arxiv.org/abs/2311.17371)] [[Code](https://github.com/instadeepai/DebateLLM)] ![Stars](https://img.shields.io/github/stars/instadeepai/DebateLLM?style=social)
 - `[2023/09]` **ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs**. *Chen et al.* ![ACL 2024](https://img.shields.io/badge/ACL_2024-blue) [[Paper](https://arxiv.org/abs/2309.13007)] [[Code](https://github.com/dinobby/ReConcile)] ![Stars](https://img.shields.io/github/stars/dinobby/ReConcile?style=social)
 - `[2023/08]` **ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate**. *Chan et al.* ![ICLR 2024](https://img.shields.io/badge/ICLR_2024-blue) [[Paper](https://arxiv.org/abs/2308.07201)] [[Code](https://github.com/thunlp/ChatEval)] ![Stars](https://img.shields.io/github/stars/thunlp/ChatEval?style=social)
 - `[2023/05]` **Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate**. :star: *Liang et al.* ![EMNLP 2024](https://img.shields.io/badge/EMNLP_2024-blue) [[Paper](https://arxiv.org/abs/2305.19118)] [[Code](https://github.com/Skytliang/Multi-Agents-Debate)] ![Stars](https://img.shields.io/github/stars/Skytliang/Multi-Agents-Debate?style=social)
+  <br>💡 Proposes the MAD framework, where agents argue in a tit-for-tat manner and a judge decides, to counter the Degeneration-of-Thought of self-reflection.
 - `[2023/05]` **Improving Factuality and Reasoning in Language Models through Multiagent Debate**. :star: *Du et al.* ![ICML 2024](https://img.shields.io/badge/ICML_2024-blue) [[Paper](https://arxiv.org/abs/2305.14325)] [[Code](https://github.com/composable-models/llm_multiagent_debate)] ![Stars](https://img.shields.io/github/stars/composable-models/llm_multiagent_debate?style=social)
+  <br>💡 Has multiple LLM instances propose and debate answers over several rounds, improving math reasoning and reducing factual hallucinations.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -471,6 +534,7 @@ LLM 多智能体系统
 
 - `[2025/07]` **AgentsNet: Coordination and Collaborative Reasoning in Multi-Agent LLMs**. *Grötschla et al.* ![arXiv 2025](https://img.shields.io/badge/arXiv_2025-lightgrey) [[Paper](https://arxiv.org/abs/2507.08616)]
 - `[2025/03]` **MultiAgentBench: Evaluating the Collaboration and Competition of LLM agents**. :star: *Zhu et al.* ![ACL 2025](https://img.shields.io/badge/ACL_2025-blue) [[Paper](https://arxiv.org/abs/2503.01935)] [[Code](https://github.com/ulab-uiuc/MARBLE)] ![Stars](https://img.shields.io/github/stars/ulab-uiuc/MARBLE?style=social)
+  <br>💡 A benchmark (MARBLE) evaluating LLM multi-agent collaboration and competition across diverse interactive scenarios, with milestone-based metrics.
 - `[2025/02]` **Collab-Overcooked: Benchmarking and Evaluating Large Language Models as Collaborative Agents**. *Sun et al.* ![arXiv 2025](https://img.shields.io/badge/arXiv_2025-lightgrey) [[Paper](https://arxiv.org/abs/2502.20073)] [[Code](https://github.com/YusaeMeow/Collab-Overcooked)] ![Stars](https://img.shields.io/github/stars/YusaeMeow/Collab-Overcooked?style=social)
 - `[2025/02]` **REALM-Bench: A Real-World Planning Benchmark for LLMs and Multi-Agent Systems**. *Geng et al.* ![arXiv 2025](https://img.shields.io/badge/arXiv_2025-lightgrey) [[Paper](https://arxiv.org/abs/2502.18836)]
 - `[2024/12]` **TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks**. *Xu et al.* ![arXiv 2024](https://img.shields.io/badge/arXiv_2024-lightgrey) [[Paper](https://arxiv.org/abs/2412.14161)] [[Code](https://github.com/TheAgentCompany/TheAgentCompany)] ![Stars](https://img.shields.io/github/stars/TheAgentCompany/TheAgentCompany?style=social)
@@ -488,6 +552,7 @@ LLM 多智能体系统
 ### Failure Analysis, Attribution & Scaling
 
 - `[2026/04]` **More Capable, Less Cooperative? When LLMs Fail At Zero-Cost Collaboration**. *Yadav et al.* ![ICML 2026](https://img.shields.io/badge/ICML_2026-blue) [[Paper](https://arxiv.org/abs/2604.07821)]
+  <br>💡 Finds that more capable LLMs do not cooperate better when helping is free, often withholding information, and shows explicit protocols and small sharing incentives restore cooperation.
 - `[2026/02]` **Understanding Agent Scaling in LLM-Based Multi-Agent Systems via Diversity**. *Yang et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2602.03794)]
 - `[2026/02]` **When Agents "Misremember" Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems**. *Xu et al.* ![ICLR 2026](https://img.shields.io/badge/ICLR_2026-blue) [[Paper](https://arxiv.org/abs/2602.00428)] [[Code](https://github.com/bluedream02/Mandela-Effect)] ![Stars](https://img.shields.io/github/stars/bluedream02/Mandela-Effect?style=social)
 - `[2025/12]` **Towards a Science of Scaling Agent Systems**. *Kim et al.* ![arXiv 2025](https://img.shields.io/badge/arXiv_2025-lightgrey) [[Paper](https://arxiv.org/abs/2512.08296)]
@@ -496,7 +561,9 @@ LLM 多智能体系统
 - `[2025/09]` **AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?** *Zhang et al.* ![arXiv 2025](https://img.shields.io/badge/arXiv_2025-lightgrey) [[Paper](https://arxiv.org/abs/2509.03312)]
 - `[2025/05]` **Systematic Failures in Collective Reasoning under Distributed Information in Multi-Agent LLMs**. *Li et al.* ![ICML 2026](https://img.shields.io/badge/ICML_2026-blue) [[Paper](https://arxiv.org/abs/2505.11556)]
 - `[2025/05]` **Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems**. :star: *Zhang et al.* ![ICML 2025](https://img.shields.io/badge/ICML_2025-blue) [[Paper](https://arxiv.org/abs/2505.00212)] [[Code](https://github.com/ag2ai/Agents_Failure_Attribution)] ![Stars](https://img.shields.io/github/stars/ag2ai/Agents_Failure_Attribution?style=social)
+  <br>💡 Introduces automated failure attribution, identifying which agent and which step cause a MAS failure, with the Who&When dataset.
 - `[2025/03]` **Why Do Multi-Agent LLM Systems Fail?** :star: *Cemri et al.* ![NeurIPS 2025 D&B](https://img.shields.io/badge/NeurIPS_2025_D%26B-blue) [[Paper](https://arxiv.org/abs/2503.13657)] [[Code](https://github.com/multi-agent-systems-failure-taxonomy/MAST)] ![Stars](https://img.shields.io/github/stars/multi-agent-systems-failure-taxonomy/MAST?style=social)
+  <br>💡 Analyzes execution traces of popular MAS frameworks and proposes MAST, a taxonomy of 14 failure modes in three categories.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -537,8 +604,11 @@ LLM 多智能体系统
 ### Software Engineering & Coding
 
 - `[2026/06]` **Unlocking Model Potentials Through Adaptive Multi-Agent Scaffolding for Efficient Issue Resolution (icat-agent)**. *Yang Chen et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2606.25514)]
+  <br>💡 Proposes icat-agent, a decentralized multi-agent scaffold with event-based message passing and rubric-based workflow adaptation for efficient issue resolution on SWE-bench.
 - `[2026/06]` **Phoenix: Safe GitHub Issue Resolution via Multi-Agent LLMs**. *Kipngeno Koech et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2606.20243)]
+  <br>💡 Presents Phoenix, a multi-agent LLM system with six specialized agents and layered safety controls that resolves GitHub issues up to pull requests for human review.
 - `[2026/04]` **AgentForge: Execution-Grounded Multi-Agent LLM Framework for Autonomous Software Engineering**. *Rajesh Kumar et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2604.13120)] [[Code](https://github.com/raja21068/AutoCodeAI)] ![Stars](https://img.shields.io/github/stars/raja21068/AutoCodeAI?style=social)
+  <br>💡 Proposes AgentForge, a multi-agent software engineering framework with Planner, Coder, Tester, Debugger and Critic agents that verifies every patch in a Docker sandbox.
 - `[2026/03]` **Effective Strategies for Asynchronous Software Engineering Agents (CAID)**. *Jiayi Geng et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2603.21489)]
 - `[2026/02]` **SGAgent: Suggestion-Guided LLM-Based Multi-Agent Framework for Repository-Level Software Repair**. *Quanjun Zhang et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2602.23647)]
 - `[2025/12]` **BOAD: Discovering Hierarchical Software Engineering Agents via Bandit Optimization**. *Iris Xu et al.* ![arXiv 2025](https://img.shields.io/badge/arXiv_2025-lightgrey) [[Paper](https://arxiv.org/abs/2512.23631)]
@@ -568,6 +638,7 @@ LLM 多智能体系统
 ### Scientific Discovery & Research
 
 - `[2026/05]` **ARIS: Autonomous Research via Adversarial Multi-Agent Collaboration**. *Ruofeng Yang et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2605.03042)] [[Code](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep)] ![Stars](https://img.shields.io/github/stars/wanshuiyin/Auto-claude-code-research-in-sleep?style=social)
+  <br>💡 Presents ARIS, an open-source autonomous research harness pairing an executor with a reviewer from a different model family to catch unsupported claims.
 - `[2026/03]` **An Empirical Study of Multi-Agent Collaboration for Automated Research**. *Yang Shen et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2603.29632)]
 - `[2026/03]` **Towards a Medical AI Scientist**. *Hongtao Wu et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2603.28589)]
 - `[2026/03]` **EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery**. *Yougang Lyu et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2603.08127)]
@@ -597,6 +668,7 @@ LLM 多智能体系统
 ### Social Simulation & Human Behavior
 
 - `[2026/07]` **AgentSociety 2: An Integrated Research Environment for Executable Social Science**. *Jinghua Piao et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2607.11895)] [[Code](https://github.com/tsinghua-fib-lab/AgentSociety)] ![Stars](https://img.shields.io/github/stars/tsinghua-fib-lab/AgentSociety?style=social)
+  <br>💡 Presents AgentSociety 2, an integrated research environment where AI social scientists and simulated participants support end-to-end executable social science studies.
 - `[2025/05]` **YuLan-OneSim: Towards the Next Generation of Social Simulator with Large Language Models**. *Lei Wang et al.* ![arXiv 2025](https://img.shields.io/badge/arXiv_2025-lightgrey) [[Paper](https://arxiv.org/abs/2505.07581)]
 - `[2025/04]` **SocioVerse: A World Model for Social Simulation Powered by LLM Agents and A Pool of 10 Million Real-World Users**. *Xinnong Zhang et al.* ![arXiv 2025](https://img.shields.io/badge/arXiv_2025-lightgrey) [[Paper](https://arxiv.org/abs/2504.10157)]
 - `[2025/04]` **MOSAIC: Modeling Social AI for Content Dissemination and Regulation in Multi-Agent Simulations**. *Genglin Liu et al.* ![arXiv 2025](https://img.shields.io/badge/arXiv_2025-lightgrey) [[Paper](https://arxiv.org/abs/2504.07830)]
@@ -619,14 +691,18 @@ LLM 多智能体系统
 - `[2023/07]` **Epidemic Modeling with Generative Agents**. *Ross Williams et al.* ![arXiv 2023](https://img.shields.io/badge/arXiv_2023-lightgrey) [[Paper](https://arxiv.org/abs/2307.04986)]
 - `[2023/06]` **User Behavior Simulation with Large Language Model based Agents (RecAgent)**. *Lei Wang et al.* ![TOIS 2025](https://img.shields.io/badge/TOIS_2025-blue) [[Paper](https://arxiv.org/abs/2306.02552)] [[Code](https://github.com/RUC-GSAI/YuLan-Rec)] ![Stars](https://img.shields.io/github/stars/RUC-GSAI/YuLan-Rec?style=social)
 - `[2023/04]` **Generative Agents: Interactive Simulacra of Human Behavior**. :star: *Park et al.* ![UIST 2023](https://img.shields.io/badge/UIST_2023-blue) [[Paper](https://arxiv.org/abs/2304.03442)] [[Code](https://github.com/joonspk-research/generative_agents)] ![Stars](https://img.shields.io/github/stars/joonspk-research/generative_agents?style=social)
+  <br>💡 Simulates a small town of 25 agents with memory, reflection and planning, producing believable individual and emergent social behavior.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Games, Embodied AI & Robotics
 
 - `[2026/06]` **Multi-agent Framework for Time-Sensitive Complementary Collaboration in Minecraft**. *Juheon Yi et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2606.15684)]
+  <br>💡 Introduces TickingCollabBench and the TickingCollab framework for time-sensitive complementary collaboration tasks among heterogeneous agents in Minecraft with dynamic events.
 - `[2026/04]` **Gated Coordination for Efficient Multi-Agent Collaboration in Minecraft Game**. *HuaDong Jian et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2604.18975)]
+  <br>💡 Proposes a partitioned information architecture for Minecraft multi-agent construction, with event-triggered working memory and cost-sensitive gated escalation to reduce coordination noise.
 - `[2026/04]` **SocialGrid: A Benchmark for Planning and Social Reasoning in Embodied Multi-Agent Systems**. *Hikaru Shindo et al.* ![arXiv 2026](https://img.shields.io/badge/arXiv_2026-lightgrey) [[Paper](https://arxiv.org/abs/2604.16022)]
+  <br>💡 Introduces SocialGrid, an Among Us-inspired embodied benchmark showing LLM agents struggle with planning and detect deception near chance.
 - `[2025/06]` **DipLLM: Fine-Tuning LLM for Strategic Decision-making in Diplomacy**. *Kaixuan Xu et al.* ![ICML 2025](https://img.shields.io/badge/ICML_2025-blue) [[Paper](https://arxiv.org/abs/2506.09655)]
 - `[2025/04]` **Collaborating Action by Action: A Multi-agent LLM Framework for Embodied Reasoning (MINDcraft)**. *Isadora White et al.* ![arXiv 2025](https://img.shields.io/badge/arXiv_2025-lightgrey) [[Paper](https://arxiv.org/abs/2504.17950)]
 - `[2024/12]` **TeamCraft: A Benchmark for Multi-Modal Multi-Agent Systems in Minecraft**. *Qian Long et al.* ![arXiv 2024](https://img.shields.io/badge/arXiv_2024-lightgrey) [[Paper](https://arxiv.org/abs/2412.05255)]

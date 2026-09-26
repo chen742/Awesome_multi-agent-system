@@ -5,6 +5,7 @@
   year: 2026
   code: https://github.com/UNITES-Lab/GoA
   category: debate
+  tldr: Proposes Graph-of-Agents, which samples relevant LLM agents via model cards, builds relevance edges between their responses, and refines answers through bidirectional message passing.
 - title: Latent Collaboration in Multi-Agent Systems
   authors: Zou et al.
   venue: ICML 2026
@@ -106,6 +107,7 @@
   code: https://github.com/bingreeky/MaAS
   category: auto-design
   highlight: true
+  tldr: Optimizes a probabilistic agentic supernet and samples query-dependent multi-agent architectures, improving performance while reducing inference cost.
 - title: 'Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies'
   authors: Zhou et al.
   venue: ICLR 2026
@@ -158,6 +160,7 @@
   code: https://github.com/OpenBMB/ChatDev
   category: topology
   highlight: true
+  tldr: Organizes agents as directed acyclic graphs (MacNet) and finds a collaborative scaling law as the number of agents grows to over a thousand.
 - title: Mixture-of-Agents Enhances Large Language Model Capabilities
   authors: Wang et al.
   venue: ICLR 2025
@@ -166,6 +169,7 @@
   code: https://github.com/togethercomputer/MoA
   category: debate
   highlight: true
+  tldr: Layers multiple LLMs so each agent refines all outputs of the previous layer, achieving strong results with open-source models only.
 - title: 'Chain of Agents: Large Language Models Collaborating on Long-Context Tasks'
   authors: Zhang et al.
   venue: NeurIPS 2024
@@ -186,6 +190,7 @@
   code: https://github.com/metauto-ai/GPTSwarm
   category: topology
   highlight: true
+  tldr: Represents agent systems as computational graphs and automatically optimizes both node prompts and edge connectivity.
 - title: Debating with More Persuasive LLMs Leads to More Truthful Answers
   authors: Khan et al.
   venue: ICML 2024
@@ -201,6 +206,7 @@
   code: https://github.com/MoreAgentsIsAllYouNeed/AgentForest
   category: debate
   highlight: true
+  tldr: Shows that simply sampling many agents and taking a majority vote scales LLM performance with the number of agents.
 - title: 'Large Language Model based Multi-Agents: A Survey of Progress and Challenges'
   authors: Guo et al.
   venue: IJCAI 2024
@@ -209,6 +215,7 @@
   code: https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers
   category: survey-mas
   highlight: true
+  tldr: Surveys LLM-based multi-agent systems by environment, agent profiling, communication and capability acquisition, across problem solving and world simulation.
 - title: 'Exchange-of-Thought: Enhancing Large Language Model Capabilities through Cross-Model Communication'
   authors: Yin et al.
   venue: EMNLP 2023
@@ -251,6 +258,7 @@
   code: https://github.com/Skytliang/Multi-Agents-Debate
   category: debate
   highlight: true
+  tldr: Proposes the MAD framework, where agents argue in a tit-for-tat manner and a judge decides, to counter the Degeneration-of-Thought of self-reflection.
 - title: Improving Factuality and Reasoning in Language Models through Multiagent Debate
   authors: Du et al.
   venue: ICML 2024
@@ -259,6 +267,7 @@
   code: https://github.com/composable-models/llm_multiagent_debate
   category: debate
   highlight: true
+  tldr: Has multiple LLM instances propose and debate answers over several rounds, improving math reasoning and reducing factual hallucinations.
 - title: Emergent Coordination in Multi-Agent Language Models
   authors: Riedl et al.
   venue: ICLR 2026
@@ -381,6 +390,7 @@
   code: https://github.com/OpenBMB/AgentVerse
   category: framework
   highlight: true
+  tldr: A framework that dynamically recruits and adjusts expert agent groups, and studies the emergent social behaviors of agent collaboration.
 - title: 'AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation'
   authors: Wu et al.
   venue: COLM 2024
@@ -389,6 +399,7 @@
   code: https://github.com/microsoft/autogen
   category: framework
   highlight: true
+  tldr: An open-source framework for building applications from conversable, customizable agents that combine LLMs, humans and tools.
 - title: 'MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework'
   authors: Hong et al.
   venue: ICLR 2024
@@ -397,6 +408,7 @@
   code: https://github.com/FoundationAgents/MetaGPT
   category: framework
   highlight: true
+  tldr: Encodes human Standardized Operating Procedures into role-specialized agents that exchange structured documents to build software.
 - title: 'ChatDev: Communicative Agents for Software Development'
   authors: Qian et al.
   venue: ACL 2024
@@ -405,6 +417,7 @@
   code: https://github.com/OpenBMB/ChatDev
   category: framework
   highlight: true
+  tldr: Builds a virtual software company whose role-playing agents follow a chat chain through design, coding and testing to produce software.
 - title: 'Unleashing the Emergent Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration'
   authors: Wang et al.
   venue: NAACL 2024
@@ -434,6 +447,7 @@
   code: https://github.com/joonspk-research/generative_agents
   category: app-social
   highlight: true
+  tldr: Simulates a small town of 25 agents with memory, reflection and planning, producing believable individual and emergent social behavior.
 - title: 'CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society'
   authors: Li et al.
   venue: NeurIPS 2023
@@ -442,6 +456,7 @@
   code: https://github.com/camel-ai/camel
   category: framework
   highlight: true
+  tldr: Introduces role-playing with inception prompting so two agents (AI user and AI assistant) cooperate autonomously on tasks; releases large conversational datasets.
 - title: 'Dr. MAS: Stable Reinforcement Learning for Multi-Agent LLM Systems'
   authors: Feng et al.
   venue: arXiv 2026
@@ -642,6 +657,7 @@
   arxiv: '2604.07821'
   year: 2026
   category: analysis
+  tldr: Finds that more capable LLMs do not cooperate better when helping is free, often withholding information, and shows explicit protocols and small sharing incentives restore cooperation.
 - title: Understanding Agent Scaling in LLM-Based Multi-Agent Systems via Diversity
   authors: Yang et al.
   venue: arXiv 2026
@@ -706,6 +722,7 @@
   code: https://github.com/ag2ai/Agents_Failure_Attribution
   category: analysis
   highlight: true
+  tldr: Introduces automated failure attribution, identifying which agent and which step cause a MAS failure, with the Who&When dataset.
 - title: Why Do Multi-Agent LLM Systems Fail?
   authors: Cemri et al.
   venue: NeurIPS 2025 D&B
@@ -714,6 +731,7 @@
   code: https://github.com/multi-agent-systems-failure-taxonomy/MAST
   category: analysis
   highlight: true
+  tldr: Analyzes execution traces of popular MAS frameworks and proposes MAST, a taxonomy of 14 failure modes in three categories.
 - title: 'MultiAgentBench: Evaluating the Collaboration and Competition of LLM agents'
   authors: Zhu et al.
   venue: ACL 2025
@@ -722,6 +740,7 @@
   code: https://github.com/ulab-uiuc/MARBLE
   category: benchmark
   highlight: true
+  tldr: A benchmark (MARBLE) evaluating LLM multi-agent collaboration and competition across diverse interactive scenarios, with milestone-based metrics.
 - title: 'Collab-Overcooked: Benchmarking and Evaluating Large Language Models as Collaborative Agents'
   authors: Sun et al.
   venue: arXiv 2025
@@ -953,12 +972,14 @@
   year: 2026
   category: framework
   authors: Zhihao Zhan et al.
+  tldr: Presents Agensh, an orchestrator-free multi-agent harness where workers self-assign tasks via a shared workspace, message bus and shared context, scaling coding collaboration to 1,024 agents.
 - title: 'PatchBoard: Schema-Grounded State Mutation for Reliable and Auditable LLM Multi-Agent Collaboration'
   venue: arXiv 2026
   arxiv: '2605.29313'
   year: 2026
   category: framework
   authors: Shuyu Zhang et al.
+  tldr: Proposes PatchBoard, which replaces free-form inter-agent dialogue with schema-validated JSON Patch mutations over shared state, making multi-agent collaboration reliable, attributable and auditable.
 - title: 'Declarative by Design, Assistable Only by Convention: Benchmarking Multi-Agent Frameworks for AI-Assistability'
   venue: arXiv 2026
   arxiv: '2602.11198'
@@ -1118,54 +1139,63 @@
   year: 2026
   category: topology
   authors: Yishuo Yuan et al.
+  tldr: Finds multi-agent collaboration helps mainly on long-horizon, sparsely dependent tasks with diminishing returns as models scale, and proposes SAIGE, a lightweight graph-evolution collaboration mechanism.
 - title: 'Learning How Much to Collaborate: Difficulty-Aware Topology Selection for Multi-Agent Code Generation'
   venue: arXiv 2026
   arxiv: '2609.13890'
   year: 2026
   category: topology
   authors: Yunsong Hong et al.
+  tldr: Proposes DATS, a graph-network selector that picks a per-problem communication topology by trading predicted success against cost for multi-agent code generation.
 - title: Reward-Guided Autoregressive Graph Generation for Efficient Multi-Agent Communication Topology Design
   venue: arXiv 2026
   arxiv: '2608.20099'
   year: 2026
   category: topology
   authors: Poomphob Suwannapichat et al.
+  tldr: Proposes RGA-Designer, which fine-tunes an autoregressive topology generator with a reward model favoring correct and compact graphs, cutting token cost while preserving accuracy.
 - title: Discovering Efficient and Explainable Communication Topologies for LLM-based Multi-Agent Systems via Causal Inference
   venue: arXiv 2026
   arxiv: '2608.12921'
   year: 2026
   category: topology
   authors: Junzhi Li et al.
+  tldr: Proposes E2-Explainer, a model-agnostic method that estimates each communication edge's causal contribution by masking and extracts compact subgraphs to prune redundant multi-agent communication.
 - title: Active Learning for Communication Structure Optimization in LLM-Based Multi-Agent Systems
   venue: arXiv 2026
   arxiv: '2605.05703'
   year: 2026
   category: topology
   authors: Huchen Yang et al.
+  tldr: Proposes active task selection via ensemble Kalman inversion to optimize multi-agent communication graphs under limited budgets, improving accuracy and stability over random selection.
 - title: 'AgentSlimming: Towards Efficient and Cost-Aware Multi-Agent Systems'
   venue: arXiv 2026
   arxiv: '2605.08813'
   year: 2026
   category: topology
   authors: Yulang Chen et al.
+  tldr: Proposes AgentSlimming, a plug-and-play framework that prunes redundant agents or swaps them for cheaper ones in graph-structured multi-agent workflows to cut token cost.
 - title: Recursive Multi-Agent Systems
   venue: arXiv 2026
   arxiv: '2604.25917'
   year: 2026
   category: topology
   authors: Xiyuan Yang et al.
+  tldr: Proposes RecursiveMAS, which casts a multi-agent system as a latent-space recursive computation, passing hidden states between agents and co-optimizing them with an inner-outer loop algorithm.
 - title: 'Learning to Communicate: Toward End-to-End Optimization of Multi-Agent Language Systems'
   venue: arXiv 2026
   arxiv: '2604.21794'
   year: 2026
   category: topology
   authors: Ye Yu et al.
+  tldr: Proposes DiffMAS, a training framework that makes latent KV-cache communication between agents learnable, improving multi-agent reasoning accuracy and decoding stability.
 - title: 'OrgAgent: Organize Your Multi-Agent System like a Company'
   venue: arXiv 2026
   arxiv: '2604.01020'
   year: 2026
   category: topology
   authors: Yiru Wang et al.
+  tldr: Proposes OrgAgent, a company-style hierarchical multi-agent framework with governance, execution and compliance layers that improves reasoning and reduces tokens versus flat collaboration.
 - title: 'GoAgent: Group-of-Agents Communication Topology Generation for LLM-based Multi-Agent Systems'
   venue: arXiv 2026
   arxiv: '2603.19677'
@@ -1274,36 +1304,42 @@
   year: 2026
   category: auto-design
   authors: Yuxin Cheng et al.
+  tldr: Proposes OptiMAS, a task-agnostic agentic optimizer that evolves multi-agent systems end-to-end using interaction trajectories and task feedback as loss signals, with dual-track memory.
 - title: 'ADIAS: Automated Design of Interactive Agentic Systems'
   venue: arXiv 2026
   arxiv: '2608.06410'
   year: 2026
   category: auto-design
   authors: Lekang Jiang et al.
+  tldr: Proposes ADIAS, an issue-centric agent design framework that keeps a persistent issue state to guide targeted code revisions of interactive agentic systems.
 - title: 'Skill-MAS: Evolving Meta-Skill for Automatic Multi-Agent Systems'
   venue: arXiv 2026
   arxiv: '2606.18837'
   year: 2026
   category: auto-design
   authors: Hehai Lin et al.
+  tldr: Proposes Skill-MAS, which evolves an orchestration Meta-Skill via multi-trajectory rollout and selective reflection, letting frozen LLMs accumulate experience for automatic multi-agent system design.
 - title: 'FlowBank: Query-Adaptive Agentic Workflows Optimization'
   venue: arXiv 2026
   arxiv: '2606.11290'
   year: 2026
   category: auto-design
   authors: Lingzhi Yuan et al.
+  tldr: Proposes FlowBank, which precomputes a compact portfolio of complementary agentic workflows offline and routes each query to the best one at inference time.
 - title: 'MetaAgent-X: Breaking the Ceiling of Automatic Multi-Agent Systems via End-to-End Reinforcement Learning'
   venue: arXiv 2026
   arxiv: '2605.14212'
   year: 2026
   category: auto-design
   authors: Yaolun Zhang et al.
+  tldr: Proposes MetaAgent-X, an end-to-end reinforcement learning framework that jointly trains the designer and executor of automatic multi-agent systems via hierarchical rollouts and stagewise co-evolution.
 - title: 'EvoMAS: Learning Execution-Time Workflows for Multi-Agent Systems'
   venue: arXiv 2026
   arxiv: '2605.08769'
   year: 2026
   category: auto-design
   authors: Chengdong Xu et al.
+  tldr: Proposes EvoMAS, which builds stage-specific multi-agent workflows during execution using a learned Workflow Adapter trained with policy gradients on long-horizon tasks.
 - title: 'Unified-MAS: Universally Generating Domain-Specific Nodes for Empowering Automatic Multi-Agent Systems'
   venue: arXiv 2026
   arxiv: '2603.21475'
@@ -1440,6 +1476,7 @@
   code: https://github.com/FoundationAgents/AFlow
   category: auto-design
   highlight: true
+  tldr: Formulates agentic workflow optimization as a search over code-represented workflows and solves it with Monte Carlo Tree Search.
 - title: 'AgentSquare: Automatic LLM Agent Search in Modular Design Space'
   authors: Yu Shang et al.
   venue: ICLR 2025
@@ -1455,6 +1492,7 @@
   code: https://github.com/ShengranHu/ADAS
   category: auto-design
   highlight: true
+  tldr: Proposes Meta Agent Search, where a meta agent programs new agentic systems in code and iteratively improves them from an archive of discoveries.
 - title: Symbolic Learning Enables Self-Evolving Agents
   authors: Wangchunshu Zhou et al.
   venue: arXiv 2024
@@ -1482,30 +1520,35 @@
   year: 2026
   category: protocol
   authors: Alireza Lotfi et al.
+  tldr: Presents A2ABreak, a systematic security analysis of the A2A protocol that extracts a finite-state model from the specification and uncovers new protocol-level vulnerabilities.
 - title: 'InterSAGE: The Secure and Verifiable Interoperability Protocol for An Internet of Agents'
   venue: arXiv 2026
   arxiv: '2608.13030'
   year: 2026
   category: protocol
   authors: Zhenhua Zou et al.
+  tldr: Proposes InterSAGE, a trust-native protocol suite providing agent identity, verifiable capability discovery, trust negotiation and audit trails alongside MCP, A2A and similar protocols.
 - title: A Comparative Study of MCP and A2A for Inter-Agent Coordination in LLM-Based Systems
   venue: arXiv 2026
   arxiv: '2607.23884'
   year: 2026
   category: protocol
   authors: Ionut Predoaia et al.
+  tldr: Compares MCP and A2A for LLM inter-agent coordination through an implementation, finding MCP lighter-weight while A2A offers richer stateful task support at higher complexity.
 - title: 'Governance Gaps in Agent Interoperability Protocols: What MCP, A2A, and ACP Cannot Express'
   venue: arXiv 2026
   arxiv: '2606.31498'
   year: 2026
   category: protocol
   authors: Richard Kang et al.
+  tldr: Analyzes MCP, A2A, ACP and other interoperability protocols against a governance taxonomy, finding voting and dissent preservation absent and governance a missing architectural layer.
 - title: 'Beyond Message Passing: A Semantic View of Agent Communication Protocols'
   venue: arXiv 2026
   arxiv: '2604.02369'
   year: 2026
   category: protocol
   authors: Dun Yuan et al.
+  tldr: Analyzes agent communication protocols across communication, syntactic and semantic layers, finding mature transport support but limited clarification, context alignment and verification.
 - title: 'LDP: An Identity-Aware Protocol for Multi-Agent LLM Systems'
   venue: arXiv 2026
   arxiv: '2603.08852'
@@ -1618,30 +1661,35 @@
   year: 2026
   category: memory
   authors: Zachary Johnson et al.
+  tldr: Proposes AIM, a privacy-aware interoperable memory service that lets heterogeneous agents share a memory registry across users while keeping private memories hidden.
 - title: Collaborative Memory for Multi-Agent VLM Systems
   venue: arXiv 2026
   arxiv: '2609.17921'
   year: 2026
   category: memory
   authors: Huixin Zhang et al.
+  tldr: Proposes a collaborative memory design for multi-agent VLM systems with local cache, shared working memory and persistent storage linking claims to visual evidence.
 - title: Governed Shared Memory for Multi-Agent LLM Systems
   venue: arXiv 2026
   arxiv: '2606.24535'
   year: 2026
   category: memory
   authors: Yanki Margalit et al.
+  tldr: Proposes a governed shared-memory architecture for multi-agent LLM systems with scoped retrieval, temporal supersession, provenance tracking and policy-controlled propagation, implemented in MemClaw.
 - title: Decentralized Multi-Agent Systems with Shared Context
   venue: arXiv 2026
   arxiv: '2606.10662'
   year: 2026
   category: memory
   authors: Yuzhen Mao et al.
+  tldr: Proposes DeLM, a decentralized multi-agent framework where agents asynchronously claim subtasks and write verified updates to a shared context instead of a central orchestrator.
 - title: 'Mesh Memory Protocol: Semantic Infrastructure for Multi-Agent LLM Systems'
   venue: arXiv 2026
   arxiv: '2604.19540'
   year: 2026
   category: memory
   authors: Hongwei Xu et al.
+  tldr: Specifies Mesh Memory Protocol, a semantic infrastructure letting LLM agents share, evaluate and combine cognitive state field by field with traceable lineage across sessions.
 - title: 'MemCollab: Cross-Model Memory Collaboration via Contrastive Trajectory Distillation'
   venue: arXiv 2026
   arxiv: '2603.23234'
@@ -1743,12 +1791,14 @@
   arxiv: '2606.25514'
   year: 2026
   category: app-software
+  tldr: Proposes icat-agent, a decentralized multi-agent scaffold with event-based message passing and rubric-based workflow adaptation for efficient issue resolution on SWE-bench.
 - title: 'Phoenix: Safe GitHub Issue Resolution via Multi-Agent LLMs'
   authors: Kipngeno Koech et al.
   venue: arXiv 2026
   arxiv: '2606.20243'
   year: 2026
   category: app-software
+  tldr: Presents Phoenix, a multi-agent LLM system with six specialized agents and layered safety controls that resolves GitHub issues up to pull requests for human review.
 - title: 'AgentForge: Execution-Grounded Multi-Agent LLM Framework for Autonomous Software Engineering'
   authors: Rajesh Kumar et al.
   venue: arXiv 2026
@@ -1756,6 +1806,7 @@
   year: 2026
   code: https://github.com/raja21068/AutoCodeAI
   category: app-software
+  tldr: Proposes AgentForge, a multi-agent software engineering framework with Planner, Coder, Tester, Debugger and Critic agents that verifies every patch in a Docker sandbox.
 - title: Effective Strategies for Asynchronous Software Engineering Agents (CAID)
   authors: Jiayi Geng et al.
   venue: arXiv 2026
@@ -1864,6 +1915,7 @@
   year: 2026
   code: https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep
   category: app-science
+  tldr: Presents ARIS, an open-source autonomous research harness pairing an executor with a reviewer from a different model family to catch unsupported claims.
 - title: An Empirical Study of Multi-Agent Collaboration for Automated Research
   authors: Yang Shen et al.
   venue: arXiv 2026
@@ -2013,6 +2065,7 @@
   year: 2026
   code: https://github.com/tsinghua-fib-lab/AgentSociety
   category: app-social
+  tldr: Presents AgentSociety 2, an integrated research environment where AI social scientists and simulated participants support end-to-end executable social science studies.
 - title: 'YuLan-OneSim: Towards the Next Generation of Social Simulator with Large Language Models'
   authors: Lei Wang et al.
   venue: arXiv 2025
@@ -2154,18 +2207,21 @@
   arxiv: '2606.15684'
   year: 2026
   category: app-embodied
+  tldr: Introduces TickingCollabBench and the TickingCollab framework for time-sensitive complementary collaboration tasks among heterogeneous agents in Minecraft with dynamic events.
 - title: Gated Coordination for Efficient Multi-Agent Collaboration in Minecraft Game
   authors: HuaDong Jian et al.
   venue: arXiv 2026
   arxiv: '2604.18975'
   year: 2026
   category: app-embodied
+  tldr: Proposes a partitioned information architecture for Minecraft multi-agent construction, with event-triggered working memory and cost-sensitive gated escalation to reduce coordination noise.
 - title: 'SocialGrid: A Benchmark for Planning and Social Reasoning in Embodied Multi-Agent Systems'
   authors: Hikaru Shindo et al.
   venue: arXiv 2026
   arxiv: '2604.16022'
   year: 2026
   category: app-embodied
+  tldr: Introduces SocialGrid, an Among Us-inspired embodied benchmark showing LLM agents struggle with planning and detect deception near chance.
 - title: 'DipLLM: Fine-Tuning LLM for Strategic Decision-making in Diplomacy'
   authors: Kaixuan Xu et al.
   venue: ICML 2025
@@ -2518,12 +2574,14 @@
   arxiv: '2605.14892'
   year: 2026
   category: survey-mas
+  tldr: Surveys LLM-based multi-agent systems along a LIFE progression covering capability foundations, collaboration, failure attribution and self-evolution.
 - title: 'Multi-Agent Systems: From Classical Paradigms to Large Foundation Model-Enabled Futures'
   authors: Zixiang Wang et al.
   venue: IEEE/CAA JAS 2026
   arxiv: '2604.18133'
   year: 2026
   category: survey-mas
+  tldr: Surveys multi-agent systems from classical paradigms to large foundation model-based ones, comparing them across perception, communication, decision-making and control.
 - title: 'Towards a Science of Collective AI: LLM-based Multi-Agent Systems Need a Transition from Blind Trial-and-Error to Rigorous Science'
   authors: Jingru Fan et al.
   venue: arXiv 2026
@@ -2721,6 +2779,7 @@
   code: https://github.com/WooooDyy/LLM-Agent-Paper-List
   category: survey-agent
   highlight: true
+  tldr: A comprehensive survey of LLM-based agents, covering the brain-perception-action framework, single/multi-agent and human-agent applications, and agent societies.
 - title: A Survey on Large Language Model based Autonomous Agents
   authors: Lei Wang et al.
   venue: Frontiers of Computer Science 2024
@@ -2729,12 +2788,14 @@
   code: https://github.com/Paitesanshi/LLM-Agent-Survey
   category: survey-agent
   highlight: true
+  tldr: Surveys LLM-based autonomous agents through a unified construction framework (profile, memory, planning, action), applications and evaluation.
 - title: A Technical Taxonomy of LLM Agent Communication Protocols
   authors: Linus Sander et al.
   venue: arXiv 2026
   arxiv: '2606.19135'
   year: 2026
   category: survey-topic
+  tldr: Develops a five-dimension taxonomy of LLM agent communication protocols covering counterparty, payload, interaction state, discovery mechanism and schema flexibility.
 - title: 'Survey of LLM Agent Communication with MCP: A Software Design Pattern Centric Review'
   authors: Anjana Sarkar et al.
   venue: arXiv 2025
@@ -2771,12 +2832,14 @@
   arxiv: '2607.26212'
   year: 2026
   category: survey-mas
+  tldr: Surveys 141 multi-agent debate studies with a taxonomy of participants, interaction mechanisms and agreement protocols, noting convergence on a narrow design pattern.
 - title: Reinforcement Learning for LLM-based Multi-Agent Systems through Orchestration Traces
   authors: Chenchen Zhang
   venue: arXiv 2026
   arxiv: '2605.02801'
   year: 2026
   category: survey-mas
+  tldr: Surveys reinforcement learning for LLM multi-agent systems through orchestration traces, covering reward design, credit assignment and spawn, delegate, communicate, aggregate and stop decisions.
 - title: A Survey on Large Language Model based Human-Agent Systems
   authors: Henry Peng Zou et al.
   venue: arXiv 2025
@@ -2832,12 +2895,14 @@
   arxiv: '2609.00595'
   year: 2026
   category: survey-topic
+  tldr: Systematizes multi-agent LLM system security across 197 works with an adversary-interface-risk framework and a five-part contract for organizing defenses.
 - title: 'A Systematic Survey of Security Threats and Defenses in LLM-Based AI Agents: A Layered Attack Surface Framework'
   authors: Kexin Chu
   venue: arXiv 2026
   arxiv: '2604.23338'
   year: 2026
   category: survey-topic
+  tldr: Surveys LLM agent security threats and defenses with a seven-layer attack surface model plus a temporality axis, finding upper layers under-explored.
 - title: 'TRiSM for Agentic AI: A Review of Trust, Risk, and Security Management in LLM-based Agentic Multi-Agent Systems'
   authors: Shaina Raza et al.
   venue: arXiv 2025

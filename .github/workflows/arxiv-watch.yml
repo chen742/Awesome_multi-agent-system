@@ -1,0 +1,41 @@
+name: arXiv watch
+
+# Daily scan of arXiv for new LLM multi-agent papers; opens one issue per run
+# listing candidates that are not yet in the list or in recent watch issues.
+on:
+  schedule:
+    - cron: "17 2 * * *"   # daily, after arXiv's announcement
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Look back this many days"
+        default: "7"
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pyyaml
+      - name: Collect IDs from recent watch issues
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue list --label arxiv-watch --state all --limit 30 --json body --jq '.[].body' > seen.txt || true
+      - name: Search arXiv
+        run: python scripts/arxiv_watch.py --days "${{ inputs.days || '7' }}" --seen-file seen.txt --out issue.md
+      - name: Open issue
+        if: hashFiles('issue.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create arxiv-watch --color 1d76db --description "New papers found by the arXiv watcher" 2>/dev/null || true
+          gh issue create --title "arXiv watch: new multi-agent papers ($(date -u +%Y-%m-%d))" \
+            --label arxiv-watch --body-file issue.md

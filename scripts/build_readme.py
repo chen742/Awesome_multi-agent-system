@@ -143,6 +143,9 @@ def render(tpl, toc, body, n, must=""):
 
 def main():
     cats, papers = load()
+    if "--check" not in sys.argv:
+        import make_figures
+        make_figures.main()
     toc, body = build(cats, papers)
     check = "--check" in sys.argv
     # Ignore the auto-updated date line when checking staleness.

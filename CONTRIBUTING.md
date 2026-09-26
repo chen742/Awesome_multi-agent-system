@@ -42,6 +42,10 @@ The README is **auto-generated**. Please do **not** edit `README.md` directly.
 - When a preprint is accepted, please update its `venue` (e.g., `arXiv 2025` → `NeurIPS 2025`).
 - One entry per paper; the validator rejects duplicate arXiv IDs and titles.
 
+## For maintainers: daily arXiv watch
+
+`.github/workflows/arxiv-watch.yml` runs `scripts/arxiv_watch.py` every day and opens an issue labeled `arxiv-watch` listing new candidate papers, each with a suggested category and a ready-to-paste YAML entry. Review it weekly, paste the good ones into `data/papers.yaml`, rebuild, and close the issue.
+
 ## Suggesting new categories
 
 Open an issue describing the category and a few papers that would belong to it. Categories live in [`data/categories.yaml`](data/categories.yaml).

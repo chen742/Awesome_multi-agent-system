@@ -82,12 +82,6 @@ This list is **generated from [`data/papers.yaml`](data/papers.yaml)**, so addin
 
 Then run `python scripts/validate.py && python scripts/build_readme.py` and open a PR. Not comfortable with PRs? Just [open an issue](https://github.com/chen742/Awesome_multi-agent-system/issues/new/choose) with the paper link. See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
-**Thanks to all contributors!**
-
-<a href="https://github.com/chen742/Awesome_multi-agent-system/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=chen742/Awesome_multi-agent-system" />
-</a>
-
 ## 📈 Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=chen742/Awesome_multi-agent-system&type=Date)](https://star-history.com/#chen742/Awesome_multi-agent-system&Date)

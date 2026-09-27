@@ -66,10 +66,6 @@
 
 然后运行 `python scripts/validate.py && python scripts/build_readme.py` 并提交 PR。不熟悉 PR？直接[提交 Issue](https://github.com/chen742/Awesome_multi-agent-system/issues/new/choose) 附上论文链接即可。
 
-<a href="https://github.com/chen742/Awesome_multi-agent-system/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=chen742/Awesome_multi-agent-system" />
-</a>
-
 ## 📈 Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=chen742/Awesome_multi-agent-system&type=Date)](https://star-history.com/#chen742/Awesome_multi-agent-system&Date)
